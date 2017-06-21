@@ -1,0 +1,80 @@
+\documentclass[12pt,letter,sans]{moderncv} % Font sizes: 10, 11, or 12; paper sizes: a4paper, letterpaper, a5paper, legalpaper, executivepaper or landscape; font families: sans or roman
+
+\moderncvstyle{casual} % CV theme - options include: 'casual' (default), 'classic', 'oldstyle' and 'banking'
+\moderncvcolor{grey} % CV color - options include: 'blue' (default), 'orange', 'green', 'red', 'purple', 'grey' and 'black'
+
+\usepackage{lipsum} % Used for inserting dummy 'Lorem ipsum' text into the template
+
+\usepackage{setspace} 
+
+%\usepackage[scale=1]{geometry} % Reduce document margins
+\usepackage[margin=1.1in]{geometry}
+\linespread{1.2}
+
+%\setlength{\hintscolumnwidth}{3cm} % Uncomment to change the width of the dates column
+%\setlength{\makecvtitlenamewidth}{10cm} % For the 'classic' style, uncomment to adjust the width of the space allocated to your name
+
+%\usepackage[scale=0.75]{geometry} 
+\usepackage[english]{babel}
+\usepackage{blindtext}
+%%%%%%%%%%%%%%%%%%%
+\usepackage{etoolbox}
+\usepackage[round]{natbib}
+\bibliographystyle{unsrtnat}
+\setlength{\bibsep}{0pt}
+%\patchcmd{\makelettertitle}{\hfill}{}{}{}
+%\patchcmd{\makelettertitle}{\raggedleft}{\raggedright}{}{}
+
+\firstname{Yonatan} % Your first name
+\familyname{Berman and Alexander Adamou} % Your last name
+%\title{Resumé title}                               % optional, remove / comment the line if not wanted
+%\title{Curriculum Vitae}
+\address{Tel Aviv University, Tel Aviv-Yafo, Israel 6997801}{London Mathematical Laboratory, London, UK WC2N 6DF}
+%\mobile{+972-(0)58-5432154}
+%\email{yonatanb@post.tau.ac.il}
+%\homepage{www.yonatanberman.com}{www.yonatanberman.com}
+
+
+% to show numerical labels in the bibliography (default is to show no labels); only useful if you make citations in your resume
+%\makeatletter
+%\renewcommand*{\bibliographyitemlabel}{\@biblabel{\arabic{enumiv}}}
+%\makeatother
+%\renewcommand*{\bibliographyitemlabel}{[\arabic{enumiv}]}% CONSIDER REPLACING THE ABOVE BY THIS
+
+% bibliography with mutiple entries
+%\usepackage{multibib}
+%\newcites{book,misc}{{Books},{Others}}
+
+\begin{document}
+
+\noindent
+\begin{flushleft}
+\includegraphics[width=0.3\textwidth] {./tau1.jpg}
+\hspace{97pt}
+\includegraphics[width=0.463\textwidth] {./lml_LOGO_whiteBG.jpg}
+\\ \vspace{-7pt}
+\rule{160mm}{1.5pt}
+\end{flushleft}
+
+%lml_LOGO_whiteBG
+
+\vspace{3mm}
+
+\recipient{Science/AAAS Editorial Board}{1200 New York Avenue NW\\Washington, DC 20005\\USA}
+\date{\today}
+\opening{To the editorial board,}
+\closing{Sincerely,}
+%\enclosure[Attached]{curriculum vit\ae{}}          % use an optional argument to use a string other than "Enclosure", or redefine \enclname
+\makelettertitle
+
+Please find attached our article, \emph{Measuring the ``American Dream''}, which we are pleased to submit for publication in \emph{Science} as a perspective.
+
+In our article we comment on a research article that had recently appeared in \emph{Science} --- Raj Chetty \emph{et al.}, ``The fading American dream: Trends in absolute income mobility since 1940'' (\emph{Science} 10.1126/science aal4617 (2017)).
+
+In their paper, Chetty \emph{et al.} provide one of the first attempts to describe the historical trend of absolute interegerational mobility in the United States. Their thorough and impressive work contributes much to the ongoing academic discourse on intergenerational mobility and income inequality. In our article, we build on their results and highlight an often overlooked conceptual aspect of intergenerational mobility research. Notably, we discuss the relationship between absolute and relative mobility measures and point out that counter-intuitively, the canonical measures of absolute and relative mobility are inversely related. Therefore, studies of intergenerational mobility require a deep understanding of such subtleties to prevent misinterpretation.
+
+We note that a longer version of this manuscript was previously sent to the authors of ``The fading American dream: Trends in absolute income mobility since 1940'' and to Miles Corak, an expert in the field of intergenrational mobiltiy research and received positive feedback, however it was not submitted for publication to any other journal, or has been reviewed elsewhere. We also state that none of the material has been published or is under consideration elsewhere, including the Internet.
+
+\makeletterclosing
+
+\end{document}
