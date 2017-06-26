@@ -7,33 +7,14 @@
 %\usepackage{acrofont}%NOTE: Comment out this line for the release version!
 
 \usepackage{float}
-\usepackage{placeins}
 \usepackage{amsmath}
-\usepackage{color}
 \usepackage{amssymb}
 \usepackage{mathtools}
 \usepackage{subfigure}
 \usepackage{epsfig}
-\usepackage{listings}
-\usepackage{enumitem}
-\usepackage{graphicx}    
+\usepackage{graphicx}
 \usepackage{graphics}
 \usepackage{epstopdf}
-\usepackage[pdftex]{hyperref}
-\usepackage{breakurl}
-\usepackage{epigraph}
-\usepackage{xspace}
-\usepackage{amsfonts}
-\usepackage{eurosym}
-\usepackage{ulem}
-\usepackage{footmisc}
-\usepackage{comment}
-\usepackage{caption}
-\usepackage{pdflscape}
-\usepackage{array}
-\usepackage{tikz}
-\usetikzlibrary{snakes}
-\usetikzlibrary{patterns}
 
 \newcommand{\elabel}[1]{\label{eq:#1}}
 \newcommand{\eref}[1]{Eq.~(\ref{eq:#1})}
@@ -91,7 +72,7 @@
 \let\endtitlepage\relax
 
 \begin{document}
-\title{Measures of intergenerational mobility in a bivariate normal model}
+\title{Intergenerational mobility measures in a bivariate normal model}
 % 
 \author{Yonatan Berman}
 \email{yonatanb@post.tau.ac.il}
@@ -100,12 +81,12 @@
 \date{\today}
 
 \begin{abstract} 
-We model the joint log-income distribution of parents and children and derive analytic expressions for canonical relative and absolute intergenerational mobility measures. We find that the both types of mobility measures can be expressed as a function of the other.
+We model the joint log-income distribution of parents and children and derive analytic expressions for canonical relative and absolute intergenerational mobility measures. We find that both types of mobility measures can be expressed as a function of the other.
 \end{abstract}
 
 \maketitle
 
-For the past several decades, many scholars have been studying economic intergenerational mobility~\cite{mazumder2005fortunate,aaronson2008intergenerational,lee2009trends,hauser2010intergenerational,corak2013income,chetty2014united}. The motivation for studying mobility stems from its relationship to concepts like equality of opportunity~\cite{roemer2000opportunity,chetty2014land} and the so-called ``American Dream''~\cite{corak2009chasing,chetty2017fading}. Typically measures of mobility are divided into two categories: relative and absolute. Taking the example of income, relative measures gauge the propensity of individuals to change their position in the income distribution, while absolute measures gauge their propensity to change their income in money terms. A hypothetical economy in which all children have exactly twice the real incomes of their parents would exhibit minimal relative mobility and maximal absolute mobility. Therefore, the precise definitions of quoted mobility measures are important.
+For the past several decades, many scholars have been studying economic intergenerational mobility~\cite{mazumder2005fortunate,aaronson2008intergenerational,lee2009trends,hauser2010intergenerational,corak2013income,chetty2014united}. The motivation for studying mobility stems from its relationship to concepts like equality of opportunity~\cite{roemer2000opportunity,chetty2014land}, the so-called ``American Dream''~\cite{corak2009chasing,chetty2017fading} and income inequality~\cite{corak2013income,berman2016understanding}. Typically measures of income intergenerational mobility are divided into two categories: relative -- quantifying the propensity of individuals to change their position in the income distribution, and absolute -- quantifying their propensity to change their income in money terms. The aim this note is to introduce a simple model for the joint income distribution of parents and children and use it for explicitly deriving canonical measures of relative and absolute mobility measures.
 
 Our starting point is a population of $N$ parent-child pairs. We denote by $Y_p^i$ and $Y_c^i$ the incomes of the parent and the child (at the same age), respectively, for family $i=1\dots N$. We assume the incomes are all positive and move to define the log-incomes $X_p^i=\log Y_p^i$ and $X_c^i=\log Y_c^i$.
 
@@ -116,7 +97,7 @@ X_c = \alpha + \beta X_p + \epsilon\,,
 \ee
 where $\alpha$ is the regression intercept and $\epsilon$ is the error term.
 
-IGE is a measure of immobility rather than of mobility: the larger it is, the stronger the relationship between the parent and child income. Therefore, $1-\beta$ is often used as a measure of mobility. Empirical studies of IGE and other relative mobility measures in the United States show it holding stable over the past several decades~\cite{lee2009trends,hauser2010intergenerational,chetty2014land,chetty2014united}.
+We note that IGE is a measure of immobility rather than of mobility and the larger it is, the stronger the relationship between the parent and child income. Therefore, $1-\beta$  can be used as a measure of mobility.
 
 A standard approach to measure absolute intergenerational mobility, recently used in~\cite{chetty2017fading} for studying the trends in absolute mobility in the United States is to measure the fraction of children earning more than their parents, denoted by $A$:
 
@@ -135,12 +116,12 @@ One hypothetical sample of such distribution is presented in~\fref{lines}. It al
 
 \begin{figure}[!htb]
 \centering
-\includegraphics[width=0.5\textwidth]{./figs/bivariate_lines3.eps}
+\includegraphics[width=0.5\textwidth]{./bivariate_lines3.eps}
 \caption{An illustration of the absolute and relative mobility measures. The black circles are a randomly chosen sample of 100 parent-child log-income pairs. The sample was created assuming a bivariate normal distribution and the parameters used were $\mu_p=10.1$, $\sigma_p=0.78$ (for the parents marginal distribution) and $\mu_c=10.25$, $\sigma_c=1.15$ (for the children marginal distribution) with correlation of $\rho=0.57$. The resulting $\alpha$ and $\beta$ were $1.8$ and $0.84$, respectively.}
 \flabel{lines}
 \end{figure}
 
-Income distributions are known to be well approximated by the log-normal distribution~\cite{pinkovskiy2009parametric}. Therefore, the minimal plausible model for the joint distribution of parent and child log-incomes is the bivariate normal distribution, in which both marginal income distributions for parents and children are log-normal and the correlation between parent and child incomes is characterized by a single parameter $\rho$. The marginal log-income distribution of the parents (children) follows $\mathcal{N}\left(\mu_p,\sigma_p^2\right)$ ($\mathcal{N}\left(\mu_c,\sigma_c^2\right)$), hence the joint distribution is fully characterized by 5 parameters: $\mu_p$, $\sigma_p$, $\mu_c$, $\sigma_c$ and $\rho$.
+Since income distributions are known to be well approximated by the log-normal distribution~\cite{pinkovskiy2009parametric}, a simple plausible model for the joint distribution of parent and child log-incomes is the bivariate normal distribution. Under this assumption, the marginal income distributions of both parents and children are log-normal and the correlation between their log-incomes is defined by a single parameter $\rho$. The marginal log-income distribution of the parents (children) follows $\mathcal{N}\left(\mu_p,\sigma_p^2\right)$ ($\mathcal{N}\left(\mu_c,\sigma_c^2\right)$), hence the joint distribution is fully characterized by 5 parameters: $\mu_p$, $\sigma_p$, $\mu_c$, $\sigma_c$ and $\rho$.
 
 Assuming the bivariate normal approximation for the joint distribution enables theoretically studying its properties. In particular Both measures of mobility, $A$ and $1-\beta$, can be derived directly from the model and, notably, can both be expressed analytically as functions of the other. We first derive the IGE in terms of the distribution parameters:
 
@@ -202,9 +183,9 @@ where $\Phi$ is the cumulative distribution function of the standard normal dist
 \end{proposition}
 
 \begin{proof}
-We start by defining a new random variable $Z = X_c-X_p$. It follows that calculating $A$ is equivalent to calculate the probability $P\left(Z>0\right)$.
+We start by defining a new random variable $Z = X_c-X_p$. It follows that calculating $A$ is equivalent to calculating the probability $P\left(Z>0\right)$.
 
-By definition $Z \sim \mathcal{N}\left(\mu_c - \mu_p,\sigma_p^2 + \sigma_c^2 - 2\text{Cov}\left[X_p,X_c\right]\right)$, so according to \pref{prop1}
+Subtracting two dependent normal distributions yields that $Z \sim \mathcal{N}\left(\mu_c - \mu_p,\sigma_p^2 + \sigma_c^2 - 2\text{Cov}\left[X_p,X_c\right]\right)$, so according to \pref{prop1}
 
 \be
 Z \sim \mathcal{N}\left(\mu_c - \mu_p,\sigma_p^2\left(1-2\beta\right) + \sigma_c^2\right)\,.
