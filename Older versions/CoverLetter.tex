@@ -1,0 +1,79 @@
+\documentclass[12pt,letter,sans]{moderncv} % Font sizes: 10, 11, or 12; paper sizes: a4paper, letterpaper, a5paper, legalpaper, executivepaper or landscape; font families: sans or roman
+
+\moderncvstyle{casual} % CV theme - options include: 'casual' (default), 'classic', 'oldstyle' and 'banking'
+\moderncvcolor{grey} % CV color - options include: 'blue' (default), 'orange', 'green', 'red', 'purple', 'grey' and 'black'
+
+\usepackage{lipsum} % Used for inserting dummy 'Lorem ipsum' text into the template
+
+\usepackage{setspace} 
+
+%\usepackage[scale=1]{geometry} % Reduce document margins
+\usepackage[margin=1.1in]{geometry}
+\linespread{1.2}
+
+%\setlength{\hintscolumnwidth}{3cm} % Uncomment to change the width of the dates column
+%\setlength{\makecvtitlenamewidth}{10cm} % For the 'classic' style, uncomment to adjust the width of the space allocated to your name
+
+%\usepackage[scale=0.75]{geometry} 
+\usepackage[english]{babel}
+\usepackage{blindtext}
+%%%%%%%%%%%%%%%%%%%
+\usepackage{etoolbox}
+\usepackage[round]{natbib}
+\bibliographystyle{unsrtnat}
+\setlength{\bibsep}{0pt}
+%\patchcmd{\makelettertitle}{\hfill}{}{}{}
+%\patchcmd{\makelettertitle}{\raggedleft}{\raggedright}{}{}
+
+\firstname{Yonatan} % Your first name
+\familyname{Berman and Alexander Adamou} % Your last name
+%\title{Resumé title}                               % optional, remove / comment the line if not wanted
+%\title{Curriculum Vitae}
+\address{Tel Aviv University, Tel Aviv, Israel 6997801}{London Mathematical Laboratory, 14 Buckingham Street, London, UK WC2N 6DF}
+%\mobile{+972-(0)58-5432154}
+%\email{yonatanb@post.tau.ac.il}
+%\homepage{www.yonatanberman.com}{www.yonatanberman.com}
+
+
+% to show numerical labels in the bibliography (default is to show no labels); only useful if you make citations in your resume
+%\makeatletter
+%\renewcommand*{\bibliographyitemlabel}{\@biblabel{\arabic{enumiv}}}
+%\makeatother
+%\renewcommand*{\bibliographyitemlabel}{[\arabic{enumiv}]}% CONSIDER REPLACING THE ABOVE BY THIS
+
+% bibliography with mutiple entries
+%\usepackage{multibib}
+%\newcites{book,misc}{{Books},{Others}}
+
+\begin{document}
+
+\noindent
+\begin{flushleft}
+\includegraphics[width=0.3\textwidth] {./tau1.jpg}
+\hspace{97pt}
+\includegraphics[width=0.463\textwidth] {./lml_LOGO_whiteBG.jpg}
+\\ \vspace{-7pt}
+\rule{160mm}{1.5pt}
+\end{flushleft}
+
+%lml_LOGO_whiteBG
+
+\vspace{3mm}
+
+\recipient{Science/AAAS Editorial Board}{1200 New York Avenue NW\\Washington, DC 20005\\USA}
+\date{\today}
+\opening{To the editorial board:}
+\closing{Sincerely,}
+%\enclosure[Attached]{curriculum vit\ae{}}          % use an optional argument to use a string other than "Enclosure", or redefine \enclname
+\makelettertitle
+Please find attached our article -- \textit{Measuring the ``American Dream''} -- which we are pleased to submit for publication in \textit{Science} as a perspective.
+
+Our perspective comments on a research article which appeared in \textit{Science} this year: Raj Chetty \textit{et al.}, \textit{The fading American dream: Trends in absolute income mobility since 1940}, \textit{Science} 10.1126/science aal4617 (2017).
+
+Chetty \textit{et al.}~provide one of the first attempts to describe the historical trend of absolute intergenerational mobility in the United States. This is a significant contribution to the ongoing academic discourse on intergenerational mobility and income inequality. Our perspective builds on their results and highlights an under-appreciated conceptual point in the field, namely that absolute and relative measures of intergenerational mobility should not be expected to co-move. This is because they measure mobility in fundamentally different ways. We show that a simple model consistent with empirical data predicts, counter-intuitively, an inverse relationship between the canonical measures of absolute and relative mobility. Therefore, studies of intergenerational mobility must be mindful of the properties of the measures they quote to prevent misinterpretation.
+
+We note that a longer note on these issues was previously sent to Chetty \textit{et al.}~and to Miles Corak, a leading scholar of intergenerational mobility, from whom it received positive feedback. This longer note was not submitted for publication to any other journal. We also confirm that none of the material in our perspective has been published or is under consideration elsewhere.
+
+\makeletterclosing
+
+\end{document}

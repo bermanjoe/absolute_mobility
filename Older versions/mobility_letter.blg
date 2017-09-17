@@ -1,0 +1,14 @@
+This is BibTeX, Version 0.99dThe top-level auxiliary file: mobility_letter.aux
+The style file: unsrtnat.bst
+Illegal, another \bibstyle command---line 58 of file mobility_letter.aux
+ : \bibstyle
+ :          {elsarticle-harv}
+I'm skipping whatever remains of this command
+Database file #1: mobmob.bib
+Repeated entry---line 647 of file mobmob.bib
+ : @misc{WID2017
+ :              ,
+I'm skipping whatever remains of this entry
+Warning--empty journal in pinkovskiy2009parametric
+Warning--empty journal in corak2009chasing
+(There were 2 error messages)
