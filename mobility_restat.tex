@@ -112,16 +112,20 @@
 \doublespacing
 
 \begin{titlepage}
-\title{Measuring the ``American Dream'': The relationship between relative and absolute mobility}
-\author{Yonatan Berman\footnote{School of Physics and Astronomy, Tel-Aviv University, Tel-Aviv, Israel, yonatanb@post.tau.ac.il}\, and Alexander Adamou\footnote{London Mathematical Laboratory, London, UK, a.adamou@lml.org.uk} \thanks{We wish to thank Tslil Aloni, Ole Peters, Yoash Shapira and Alex Teytelboym for fruitful discussions and for their feedback on the manuscript.}}
+\title{The relationship between relative and absolute mobility -- theory and empirics}
+\author{Yonatan Berman\footnote{Paris School of Economics, Paris, France, yonatanb@post.tau.ac.il}\, and Alexander Adamou\footnote{London Mathematical Laboratory, London, UK, a.adamou@lml.org.uk} \thanks{We wish to thank Tslil Aloni, Mikkel H\o st Gandil, Ole Peters, Yoash Shapira and Alex Teytelboym for fruitful discussions and for their feedback on the manuscript.}}
 \date{Original version: June 20, 2017\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,Last updated: \today}
 %\date{Last updated: \today}
 \maketitle
 \begin{abstract}
-\noindent We model the joint log-income distribution of parents and children and derive analytic expressions for canonical relative and absolute intergenerational mobility measures. We find that both types of mobility measures can be expressed as functions of the other and are inversely related. We conclude that absolute mobility increases with income growth and decreases with income inequality and relative mobility.\\
-\vspace{0in}\\
-\noindent\textbf{Keywords:} Mobility, inequality, bivariate income distributions\\
-\vspace{0in}\\
+\noindent~\citet{chetty2014land} proposed a new measure of absolute intergenerational income mobility: the fraction of children with greater real-terms income than their parents.~\citet{chetty2017fading} studied this empirically using United States income data. They found that this measure of absolute income mobility has decreased over the last four decades. %while traditional measures of relative income mobility have remained largely stable.
+They explained this as a consequence of unequal income growth. Here we establish an analytical relationship between their absolute mobility measure and traditional measures of relative mobility. % in a model in which parent and child log-incomes follow a bivariate normal distribution.
+We find that the absolute mobility measure is, ceteris paribus, inversely related to traditional relative mobility measures. Additionally, our models suggest mechanisms by which changes in the marginal distributions of parent and child incomes influence absolute mobility.
+%Our results are generalisable to other joint distributions of parent and child income.
+\\
+\\
+\noindent\textbf{Keywords:} Mobility, inequality, bivariate income distributions
+\\
 \noindent\textbf{JEL Codes:} E0, H0, J0, R0\\
 
 \bigskip
@@ -137,7 +141,9 @@
 
 \section{Introduction} \label{sec:introduction}
 
-The ``growing public perception that intergenerational income mobility [\ldots] is declining in the United States''~\citep[p.~141]{chetty2014united} has led scholars to seek quantifiable measures of it. Typically such measures are divided into two categories, relative and absolute: relative measures gauge children's propensity to occupy a different position in the income distribution than their parents; absolute measures gauge their propensity to have higher income than their parents in money terms. A hypothetical economy in which all children have exactly twice the real incomes of their parents would exhibit minimal relative mobility and maximal absolute mobility. Therefore, the definitions of quoted mobility measures are important. The canonical measures in each category yield different and contradictory interpretations of ostensibly the same concept, which may mislead the unaware.
+The ``growing public perception that intergenerational income mobility [\ldots] is declining in the United States''~\citep[p.~141]{chetty2014united} has led scholars to seek quantifiable measures of it. Typically such measures are divided into two categories, ``which capture different normative concepts''~\citep[p.~1560]{chetty2014land}, relative and absolute: relative measures gauge children's propensity to occupy a different position in the income distribution than their parents; absolute measures gauge their propensity to have higher income than their parents in money terms. A hypothetical economy in which all children have exactly twice the real incomes of their parents would exhibit minimal relative mobility and maximal absolute mobility. Therefore, the definitions of quoted mobility measures are important.
+
+The canonical measures in each category yield different and contradictory interpretations of ostensibly the same concept, which may mislead the unaware. In addition, ``attaching a precise normative significance to ``income mobility'' is difficult because of the multidimensionality of this concept.''~\citep[p.~588]{fields1999measurement}
 
 While relative intergenerational mobility has been studied for decades~\citep{mazumder2005fortunate,aaronson2008intergenerational,lee2009trends,hauser2010intergenerational,corak2013income,chetty2014united,berman2016understanding}, investigations of absolute intergenerational mobility remain ``scarce, mainly because of the lack of large, high-quality panel data sets linking children to their parents in the United States''~\citep[p.~398]{chetty2017fading}. In a recent paper,~\citet{chetty2017fading} considered trends in absolute mobility in income in the United States since 1940. They define the rate of absolute mobility as the fraction of children earning more than their parents in real terms and at the same age. They show that the rate of absolute mobility has fallen from approximately 90\% for children born in 1940 to 50\% for children born in the 1980s (see~\fref{trend}).
 
@@ -148,9 +154,21 @@ While relative intergenerational mobility has been studied for decades~\citep{ma
 \flabel{trend}
 \end{figure}
 
-The canonical measure of relative intergenerational mobility is the elasticity of child income with respect to parent income, known as the intergenerational earnings elasticity (IGE)~\citep{mulligan1997parental,lee2009trends,chetty2014land}. IGE is a measure of immobility rather than of mobility: the larger it is, the stronger the relationship between parent and child income. Therefore, $1-\beta$ is used as a measure of mobility. Unlike absolute mobility, empirical studies of IGE and other relative mobility measures in the United States show them holding stable over recent decades~\citep{lee2009trends,hauser2010intergenerational,chetty2014land,chetty2014united}.
+The canonical measure of relative intergenerational mobility is the elasticity of child income with respect to parent income, known as the intergenerational earnings elasticity (IGE)~\citep{mulligan1997parental,lee2009trends,chetty2014land}. IGE is a measure of immobility rather than of mobility: the larger it is, the stronger the relationship between parent and child income. Therefore, $R_1 \equiv 1-\beta$ is used as a measure of relative mobility. Unlike absolute mobility, most empirical studies of IGE and other relative mobility measures in the United States show them holding stable over recent decades~\citep{lee2009trends,hauser2010intergenerational,chetty2014land,chetty2014united}. 
 
-Co-observations of declining absolute mobility and stable relative mobility are seemingly contradictory and require careful interpretation. The explanation of~\citet{chetty2017fading} for the contrast is that income growth has been unequally distributed -- positive for high earners and stagnant for the rest -- meaning that aggregate income growth has contributed little to absolute mobility. This finding is consistent with their data but may not describe the only mechanism at work. Here we note a theoretical relationship between relative and absolute mobility, which suggests that their co-movement should not, in general, be expected.
+An additional important measure of relative mobility is the rank-rank slope (RRS), defined as the regression coefficient when ``regressing the child's rank on his parents' rank''~\citep[p.~1561]{chetty2014land}. Unlike the IGE, the RRS depends entirely on the copula of the joint income distribution of parents and children. The IGE also depends on the standard deviation of the log-income distributions. Therefore, it is argued that rank-rank slopes ``prove to be much more robust across specifications and are thus more suitable for comparisons across areas from a statistical perspective''~\citep[p.~1561]{chetty2014land}. Similarly to the IGE, the RRS is also a measure of immobility, and we use $R_2 \equiv 1-\text{RRS}$ as a measure of relative mobility.
+
+Co-observations of declining absolute mobility and stable relative mobility require careful interpretation. The explanation of~\citet{chetty2017fading} for the contrast is that income growth has been unequally distributed -- positive for high earners and stagnant for the rest -- meaning that aggregate income growth has contributed little to absolute mobility. This finding is consistent with their data but may not describe the only mechanism at work.
+
+Here we present a theoretical study of the absolute mobility measure $A$, particularly focusing on the relationship between $A$ and the two measures of relative mobility mentioned above. We find that under a very general model of the joint log-income distribution, $A$ is inversely related to both relative mobility measures -- $R_1$ and $R_2$. We find this relationship to be robust for different copula families and marginal distributions.
+
+Although it is argued that ``the income distribution is not well approximated by a bivariate log-normal distribution''~\citep[p.~1574]{chetty2014land}, we find that the falling absolute mobility presented in~\citet{chetty2017fading} can be well described by a bivariate normal model for the joint log-income distribution. Under this model we obtain a closed-form expression for the dependence of $A$ and $R_1$. This enables us to study mechanisms by which changes in the marginal distributions of parent and child incomes influence absolute mobility, which were not fully described previously.
+
+Our contribution is threefold. Firstly, we theoretically study the relationship between distinct measures and interpretations of intergenerational mobility for the first time, suggesting that their co-movement should not, in general, be expected.
+
+Secondly, from an empirical perspective, we are able to show that for describing the long run dynamics of absolute mobility, a model as simple as a bivariate log-normal distribution is satisfactory. This enables using powerful theoretical and empirical tools when addressing the dynamics of absolute mobility.
+
+Thirdly, our study extends a body of theory of economic systems without assuming ergodicity. \YB{Alex - please complete. I am not sure of how to write this paragraph, if at all.}
 
 \section{Model}
 
@@ -178,15 +196,15 @@ Since income distributions are known to be well approximated by the log-normal d
 
 \section{Results}
 
-We first address the properties of the bivariate normal approximation. In particular, we derive close form expressions for both measures of mobility, $A$ and $1-\beta$, in terms of the distribution parameters:
+We first address the properties of the bivariate normal approximation. In particular, we derive close form expressions for both measures of mobility, $A$ and $R$, in terms of the distribution parameters:
 
 \begin{proposition}
 \label{prop:prop1}
 
-For a bivariate normal distribution with parameters $\mu_p$, $\sigma_p$ (for the parents marginal distribution) and $\mu_c$, $\sigma_c$ (for the children marginal distribution) assuming correlation $\rho$, the IGE is
+For a bivariate normal distribution with parameters $\mu_p$, $\sigma_p$ (for the parents marginal distribution) and $\mu_c$, $\sigma_c$ (for the children marginal distribution) assuming correlation $\rho$, the relative mobility $R$ is
 
 \be
-1-\beta = 1-\frac{\sigma_c}{\sigma_p}\rho \,.
+R = 1-\frac{\sigma_c}{\sigma_p}\rho \,.
 \elabel{beta_rho}
 \ee
 \end{proposition}
@@ -205,11 +223,25 @@ A = \Phi\left(\frac{\mu_c - \mu_p}{\sqrt{\sigma_p^2\left(1 - 2\beta\right) + \si
 where $\Phi$ is the cumulative distribution function of the standard normal distribution.
 \end{proposition}
 
-Our next step is to test whether the bivariate normal model for the joint distribution of the log-incomes is empirically sound. For that purpose we compare the model prediction for the historical rate of absolute mobility in the United States with the historical rate reported by~\citet{chetty2017fading}. We use data for the per capita pre-tax income in the United States~\citep{PikettyZucman2014} and the income share data~\citep{WID2017} to obtain $\mu_p$, $\sigma_p$, $\mu_c$ and $\sigma_c$ every year. Since in the bivariate normal model, the marginal distributions are log-normal, these parameters can be obtained directly and no fit is required. We then use~\eref{beta_rho} and~\eref{abs2} to calculate the historical value of $A$, while fitting the correlation $\rho$ to a fixed value which minimizes the sum of squared errors from the values reported by~\citet{chetty2017fading}.
+Our next step is to test whether the bivariate normal model for the joint distribution of the log-incomes is empirically sound. For that purpose we compare the model prediction for the historical rate of absolute mobility in the United States with the historical rate reported by~\citet{chetty2017fading}.
 
-The gray curve in~\fref{trend} shows that the model reproduces faithfully the evolution of absolute mobility reported by~\citet{chetty2017fading}, despite its comparative methodological naivety.
+We use data for the per capita pre-tax income in the United States~\citep{PikettyZucman2014} and the income share data~\citep{WID2017} to obtain $\mu_p$, $\sigma_p$, $\mu_c$ and $\sigma_c$ every year. Since in the log bivariate normal model, the marginal log-income distributions are normal, these parameters can be obtained directly and no fit is required. The Lorenz curve of the log-normal distribution $\log{\mathcal{N}}\left(\mu,\sigma^2\right)$ is $\Phi\left(\Phi^{-1}\left(z\right)-\sigma\right)$~\citep{cowell2011measuring}. Therefore, top $1\%$ income share $s$ corresponds to
 
-Having established its empirical soundness, we can use the model's properties to further study the measures of mobility -- $A$ and $1-\beta$.~\pref{prop2} demonstrates that the rate of absolute mobility can be explicitly described as a function of the relative mobility.~\fref{relat} shows $A$ as a function of $1-\beta$ for different birth cohorts in the United States. It shows that the bivariate normal model -- with positive income growth and inequality changes consistent with data, but absent other effects -- predicts an \textit{inverse} relationship between absolute and relative mobility.
+\be
+\sigma = \Phi^{-1}\left(0.99\right) - \Phi^{-1}\left(s\right)
+\ee
+
+If we denote the per-capita pre-tax income as $m$, it follows that the parameter $\mu$ is
+
+\be
+\mu = \log{\left(m\right)} - \frac{\sigma^2}{2}
+\ee
+
+We then use~\eref{beta_rho} and~\eref{abs2} to calculate the historical value of $A$, while fitting the correlation $\rho$ to a fixed value which minimizes the sum of squared errors from the values reported by~\citet{chetty2017fading}.
+
+The gray curve in~\fref{trend} shows that the model reproduces faithfully the evolution of absolute mobility reported by~\citet{chetty2017fading}, despite its comparative methodological na\"{i}vety. Although it was also argued that ``the income distribution is not well approximated by a bivariate log-normal distribution''~\citep[p. 1574]{chetty2014land}, the choice in this particular model do not change the overall analysis presented, as demonstrated in Appendix~\ref{app:appB} for a bivariate gamma distribution.
+
+Having established the model's empirical soundness, we can use its properties to further study the measures of mobility -- $A$ and $R$.~\pref{prop2} demonstrates that the rate of absolute mobility can be explicitly described as a function of the relative mobility.~\fref{relat} shows $A$ as a function of $R$ for different birth cohorts in the United States. It shows that the bivariate normal model -- with positive income growth and inequality changes consistent with data, but absent other effects -- predicts an \textit{inverse} relationship between absolute and relative mobility.
 
 \begin{figure}[!htb]
 \centering
@@ -231,11 +263,12 @@ The counterintuitive inverse theoretical relationship found between absolute and
 
 \clearpage
 
-\doublespacing
+%\doublespacing
 
 \appendix
 
 \section{Proofs}
+\label{app:appA}
 
 \subsection{Proof of \preflong{prop1}}
 
@@ -266,7 +299,7 @@ We immediately obtain
 and therefore
 
 \be
-1-\beta = 1-\frac{\sigma_c}{\sigma_p}\rho
+1-\beta = R = 1-\frac{\sigma_c}{\sigma_p}\rho
 \ee
 
 \qed
@@ -303,5 +336,10 @@ so we can now write
 where $\Phi$ is the cumulative distribution function of the standard normal distribution.
 
 \qed
+
+\section{Bivariate gamma distribution model}
+\label{app:appB}
+
+Log-incomes are commonly approximated by a normal distribution
 
 \end{document}

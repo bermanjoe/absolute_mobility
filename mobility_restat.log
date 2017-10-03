@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2015.6.11)  30 JUL 2017 14:32
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2015.6.11)  2 OCT 2017 18:52
 entering extended mode
 **mobility_restat.tex
 (mobility_restat.tex
@@ -1006,7 +1006,12 @@ LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <7> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 120.
 
-Underfull \hbox (badness 10000) in paragraph at lines 121--126
+Underfull \hbox (badness 10000) in paragraph at lines 121--130
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 121--130
 
  []
 
@@ -1014,80 +1019,86 @@ Underfull \hbox (badness 10000) in paragraph at lines 121--126
 
 {C:/Users/Yonatan/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}]
 Package epstopdf Info: Source file: <./figs/trend1.eps>
-(epstopdf)                    date: 2017-06-20 16:03:33
+(epstopdf)                    date: 2017-06-20 15:03:33
 (epstopdf)                    size: 64188 bytes
 (epstopdf)             Output file: <./trend1-eps-converted-to.pdf>
-(epstopdf)                    date: 2017-07-26 16:23:40
+(epstopdf)                    date: 2017-07-26 15:23:40
 (epstopdf)                    size: 14220 bytes
 (epstopdf)             Command: <epstopdf --outfile=./trend1-eps-converted-to.p
 df ./figs/trend1.eps>
-(epstopdf)             \includegraphics on input line 146.
+(epstopdf)             \includegraphics on input line 152.
 Package epstopdf Info: Output file is already uptodate.
 
-<./trend1-eps-converted-to.pdf, id=66, 362.35374pt x 260.975pt>
+<./trend1-eps-converted-to.pdf, id=82, 362.35374pt x 260.975pt>
 File: ./trend1-eps-converted-to.pdf Graphic file (type pdf)
 
 <use ./trend1-eps-converted-to.pdf>
-Package pdftex.def Info: ./trend1-eps-converted-to.pdf used on input line 146.
+Package pdftex.def Info: ./trend1-eps-converted-to.pdf used on input line 152.
 (pdftex.def)             Requested size: 469.75502pt x 338.33563pt.
- [1] [2 <./trend1-eps-converted-to.pdf>]
+ [1]
+Overfull \hbox (11.20665pt too wide) in paragraph at lines 159--160
+\OT1/cmr/m/n/12 fined as the re-gres-sion co-ef-fi-cient when ``re-gress-ing th
+e child's rank on his par-ents' rank'' ([]Chetty
+ []
+
+[2 <./trend1-eps-converted-to.pdf>] [3]
 Package epstopdf Info: Source file: <./figs/bivariate_lines3.eps>
-(epstopdf)                    date: 2017-06-21 21:30:05
+(epstopdf)                    date: 2017-06-21 20:30:05
 (epstopdf)                    size: 77951 bytes
 (epstopdf)             Output file: <./bivariate_lines3-eps-converted-to.pdf>
-(epstopdf)                    date: 2017-07-26 16:23:40
+(epstopdf)                    date: 2017-07-26 15:23:40
 (epstopdf)                    size: 22036 bytes
 (epstopdf)             Command: <epstopdf --outfile=./bivariate_lines3-eps-conv
 erted-to.pdf ./figs/bivariate_lines3.eps>
-(epstopdf)             \includegraphics on input line 172.
+(epstopdf)             \includegraphics on input line 190.
 Package epstopdf Info: Output file is already uptodate.
 
-<./bivariate_lines3-eps-converted-to.pdf, id=127, 357.335pt x 260.975pt>
+<./bivariate_lines3-eps-converted-to.pdf, id=155, 357.335pt x 260.975pt>
 File: ./bivariate_lines3-eps-converted-to.pdf Graphic file (type pdf)
 
 <use ./bivariate_lines3-eps-converted-to.pdf>
 Package pdftex.def Info: ./bivariate_lines3-eps-converted-to.pdf used on input 
-line 172.
+line 190.
 (pdftex.def)             Requested size: 469.75502pt x 343.0983pt.
- [3] [4 <./bivariate_lines3-eps-converted-to.pdf>] [5]
+ [4] [5 <./bivariate_lines3-eps-converted-to.pdf>] [6]
 Package epstopdf Info: Source file: <./figs/relat1.eps>
-(epstopdf)                    date: 2017-06-20 16:05:57
+(epstopdf)                    date: 2017-06-20 15:05:57
 (epstopdf)                    size: 39712 bytes
 (epstopdf)             Output file: <./relat1-eps-converted-to.pdf>
-(epstopdf)                    date: 2017-07-26 16:23:41
+(epstopdf)                    date: 2017-07-26 15:23:41
 (epstopdf)                    size: 10139 bytes
 (epstopdf)             Command: <epstopdf --outfile=./relat1-eps-converted-to.p
 df ./figs/relat1.eps>
-(epstopdf)             \includegraphics on input line 216.
+(epstopdf)             \includegraphics on input line 248.
 Package epstopdf Info: Output file is already uptodate.
 
-<./relat1-eps-converted-to.pdf, id=182, 365.365pt x 269.005pt>
+<./relat1-eps-converted-to.pdf, id=217, 365.365pt x 269.005pt>
 File: ./relat1-eps-converted-to.pdf Graphic file (type pdf)
 
 <use ./relat1-eps-converted-to.pdf>
-Package pdftex.def Info: ./relat1-eps-converted-to.pdf used on input line 216.
+Package pdftex.def Info: ./relat1-eps-converted-to.pdf used on input line 248.
 (pdftex.def)             Requested size: 469.75502pt x 345.88089pt.
- [6 <./relat1-eps-converted-to.pdf>]
-[7] (mobility_restat.bbl [8
+ [7] [8 <./relat1-eps-converted-to.pdf>]
+[9] (mobility_restat.bbl [10
 
-]) [9] [10
+]) [11] [12
 
-] [11]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 307.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 307.
+] [13]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 345.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 345.
  (mobility_restat.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 307.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 307.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 345.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 345.
 Package rerunfilecheck Info: File `mobility_restat.out' has not changed.
-(rerunfilecheck)             Checksum: E9F6F452A097AD8E9821FED3E3A549A6;367.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 307.
+(rerunfilecheck)             Checksum: 66B64004974B432AA76961819BE229F1;438.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 345.
  ) 
 Here is how much of TeX's memory you used:
- 21577 strings out of 493671
- 404793 string characters out of 3143856
- 474618 words of memory out of 3000000
- 24421 multiletter control sequences out of 15000+200000
- 14446 words of font info for 57 fonts, out of 3000000 for 9000
+ 21596 strings out of 493671
+ 405124 string characters out of 3143856
+ 475807 words of memory out of 3000000
+ 24432 multiletter control sequences out of 15000+200000
+ 14792 words of font info for 58 fonts, out of 3000000 for 9000
  1025 hyphenation exceptions out of 8191
  55i,18n,92p,1131b,449s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Pr
@@ -1101,12 +1112,14 @@ s/cm/cmr12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr1
 7.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/
 Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program 
 Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Program Files/MiK
-TeX 2.9/fonts/type1/public/amsfonts/cm/cmti12.pfb><C:/Program Files/MiKTeX 2.9/
-fonts/type1/public/amsfonts/cm/cmtt12.pfb><C:/Program Files/MiKTeX 2.9/fonts/ty
-pe1/public/amsfonts/symbols/msam10.pfb>
-Output written on mobility_restat.pdf (12 pages, 270652 bytes).
+TeX 2.9/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Program Files/MiKTeX 2.9/f
+onts/type1/public/amsfonts/cm/cmti10.pfb><C:/Program Files/MiKTeX 2.9/fonts/typ
+e1/public/amsfonts/cm/cmti12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/publi
+c/amsfonts/cm/cmtt12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfon
+ts/symbols/msam10.pfb>
+Output written on mobility_restat.pdf (14 pages, 300227 bytes).
 PDF statistics:
- 318 PDF objects out of 1000 (max. 8388607)
- 55 named destinations out of 1000 (max. 500000)
- 84 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 365 PDF objects out of 1000 (max. 8388607)
+ 62 named destinations out of 1000 (max. 500000)
+ 92 words of extra memory for PDF output out of 10000 (max. 10000000)
 
