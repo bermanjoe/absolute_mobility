@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350 64-bit) (preloaded format=pdflatex 2017.10.3)  6 OCT 2017 17:32
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350 64-bit) (preloaded format=pdflatex 2017.10.3)  6 OCT 2017 18:52
 entering extended mode
 **./mobility_restat.tex
 (mobility_restat.tex
@@ -1020,7 +1020,7 @@ Package epstopdf Info: Source file: <./figs/trend1.eps>
 df ./figs/trend1.eps>
 (epstopdf)             \includegraphics on input line 172.
 Package epstopdf Info: Output file is already uptodate.
-<./trend1-eps-converted-to.pdf, id=90, pagebox=cropbox, 362.35374pt x 260.975pt
+<./trend1-eps-converted-to.pdf, id=96, pagebox=cropbox, 362.35374pt x 260.975pt
 >
 File: ./trend1-eps-converted-to.pdf Graphic file (type pdf)
 <use ./trend1-eps-converted-to.pdf>
@@ -1045,7 +1045,7 @@ Package epstopdf Info: Source file: <./figs/bivariate_lines3.eps>
 erted-to.pdf ./figs/bivariate_lines3.eps>
 (epstopdf)             \includegraphics on input line 216.
 Package epstopdf Info: Output file is already uptodate.
-<./bivariate_lines3-eps-converted-to.pdf, id=169, pagebox=cropbox, 357.335pt x 
+<./bivariate_lines3-eps-converted-to.pdf, id=178, pagebox=cropbox, 357.335pt x 
 260.975pt>
 File: ./bivariate_lines3-eps-converted-to.pdf Graphic file (type pdf)
 <use ./bivariate_lines3-eps-converted-to.pdf>
@@ -1053,7 +1053,7 @@ Package pdftex.def Info: ./bivariate_lines3-eps-converted-to.pdf  used on input
  line 216. on input line 216.
 Package pdftex.def Info: Requested size: 469.75502pt x 343.0983pt on input line
  216.
- [5 <./bivariate_lines3-eps-converted-to.pdf>] [6] [7]
+ [5] [6 <./bivariate_lines3-eps-converted-to.pdf>] [7] [8]
 Package epstopdf Info: Source file: <./figs/R1_R2.eps>
 (epstopdf)                    date: 2017-10-06 16:28:40
 (epstopdf)                    size: 57922 bytes
@@ -1064,7 +1064,7 @@ Package epstopdf Info: Source file: <./figs/R1_R2.eps>
 f ./figs/R1_R2.eps>
 (epstopdf)             \includegraphics on input line 291.
 Package epstopdf Info: Output file is already uptodate.
-<./R1_R2-eps-converted-to.pdf, id=244, pagebox=cropbox, 504.88625pt x 303.1325p
+<./R1_R2-eps-converted-to.pdf, id=261, pagebox=cropbox, 504.88625pt x 303.1325p
 t>
 File: ./R1_R2-eps-converted-to.pdf Graphic file (type pdf)
 <use ./R1_R2-eps-converted-to.pdf>
@@ -1072,7 +1072,7 @@ Package pdftex.def Info: ./R1_R2-eps-converted-to.pdf  used on input line 291.
 on input line 291.
 Package pdftex.def Info: Requested size: 469.75502pt x 282.04445pt on input lin
 e 291.
- [8] [9 <./R1_R2-eps-converted-to.pdf>] [10]
+ [9 <./R1_R2-eps-converted-to.pdf>] [10]
 (mobility_restat.bbl [11
 
 ] [12]) [13] [14
@@ -1088,7 +1088,7 @@ Package epstopdf Info: Source file: <./figs/copulas1.eps>
 .pdf ./figs/copulas1.eps>
 (epstopdf)             \includegraphics on input line 446.
 Package epstopdf Info: Output file is already uptodate.
-<./copulas1-eps-converted-to.pdf, id=361, pagebox=cropbox, 537.00626pt x 293.09
+<./copulas1-eps-converted-to.pdf, id=368, pagebox=cropbox, 537.00626pt x 293.09
 5pt>
 File: ./copulas1-eps-converted-to.pdf Graphic file (type pdf)
 <use ./copulas1-eps-converted-to.pdf>
@@ -1108,8 +1108,8 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 453.
  ) 
 Here is how much of TeX's memory you used:
  21864 strings out of 493318
- 407311 string characters out of 3138989
- 478037 words of memory out of 3000000
+ 407267 string characters out of 3138989
+ 478079 words of memory out of 3000000
  24864 multiletter control sequences out of 15000+200000
  14792 words of font info for 58 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -1132,9 +1132,9 @@ msfonts/cm/cmti10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/
 cm/cmti12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmtt1
 2.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/symbols/msam10.p
 fb>
-Output written on mobility_restat.pdf (19 pages, 372348 bytes).
+Output written on mobility_restat.pdf (19 pages, 373351 bytes).
 PDF statistics:
- 460 PDF objects out of 1000 (max. 8388607)
+ 467 PDF objects out of 1000 (max. 8388607)
  81 named destinations out of 1000 (max. 500000)
  105 words of extra memory for PDF output out of 10000 (max. 10000000)
 
