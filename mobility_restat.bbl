@@ -10,10 +10,26 @@
   economic mobility in the United States, 1940 to 2000.'' {\em Journal of Human
   Resources}, 43(1):~139--172.
 
+\harvarditem[Becker \harvardand\ Tomes]{Gary~S. Becker \harvardand\ Nigel
+  Tomes}{1979}{becker1979equilibrium}
+{\bf Becker, Gary~S., and Nigel Tomes.} 1979. ``An Equilibrium Theory of the
+  Distribution of Income and Intergenerational Mobility.'' {\em The Journal of
+  Political Economy}, 87(6):~1153--1189.
+
 \harvarditem[Berman]{Yonatan Berman}{2016}{berman2016understanding}
 {\bf Berman, Yonatan.} 2016. ``Understanding the Mechanical Relationship
   between Inequality and Intergenerational Mobility.'' {\em SSRN}.
   \url{http://ssrn.com/abstract=2796563}.
+
+\harvarditem[Bonhomme \harvardand\ Robin]{St{\'e}phane Bonhomme \harvardand\
+  Jean-Marc Robin}{2009}{bonhomme2009assessing}
+{\bf Bonhomme, St{\'e}phane, and Jean-Marc Robin.} 2009. ``Assessing the
+  equalizing force of mobility using short panels: France, 1990--2000.'' {\em
+  The Review of Economic Studies}, 76(1):~63--92.
+
+\harvarditem[Borjas]{George~J. Borjas}{1992}{borjas1992ethnic}
+{\bf Borjas, George~J.} 1992. ``Ethnic capital and intergenerational
+  mobility.'' {\em The Quarterly journal of economics}, 107(1):~123--150.
 
 \harvarditem[Chetty et~al.]{Raj Chetty, David Grusky, Maximilian Hell,
   Nathaniel Hendren, Robert Manduca \harvardand\ Jimmy
@@ -94,14 +110,31 @@
   ``Parametric Estimations of the World Distribution of Income.'' {W}orking
   {P}aper 15433, NBER.
 
+\harvarditem[Putnam, Frederick \harvardand\ Snellman]{Robert~D. Putnam, Carl~B.
+  Frederick \harvardand\ Kaisa Snellman}{2012}{putnam2012growing}
+{\bf Putnam, Robert~D., Carl~B. Frederick, and Kaisa Snellman.} 2012. ``Growing
+  class gaps in social connectedness among American youth.''
+
 \harvarditem[Roemer]{John~E. Roemer}{2000}{roemer2000opportunity}
 {\bf Roemer, John~E.} 2000. {\em Equality of Opportunity.} Cambridge,
   MA:Harvard University Press.
+
+\harvarditem[Salem \harvardand\ Mount]{Ali B.~Z. Salem \harvardand\ Timothy~D.
+  Mount}{1974}{salem1974convenient}
+{\bf Salem, Ali B.~Z., and Timothy~D. Mount.} 1974. ``A Convenient Descriptive
+  Model of Income Distribution: The Gamma Density.'' {\em Econometrica: Journal
+  of the Econometric Society}, 42(6):~1115--1127.
 
 \harvarditem[{The World Wealth and Income Database}]{{The World Wealth and
   Income Database}}{2016}{WID2017}
 {\bf {The World Wealth and Income Database}.} 2016. ``USA Top $10\%$ and $1\%$
   and Bottom $50\%$ Wealth Shares, 1913--2014.'' {\em
   \url{http://wid.world/data/}}, Accessed: 12/26/2016.
+
+\harvarditem[Trivedi \harvardand\ Zimmer]{Pravin~K. Trivedi \harvardand\
+  David~M. Zimmer}{2007}{trivedi2007copula}
+{\bf Trivedi, Pravin~K., and David~M. Zimmer.} 2007. ``Copula modeling: an
+  introduction for practitioners.'' {\em Foundations and Trends in
+  Econometrics}, 1(1):~1--111.
 
 \end{thebibliography}
