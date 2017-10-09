@@ -169,8 +169,8 @@ While relative intergenerational mobility has been studied for decades~\citep{be
 
 \begin{figure}[!htb]
 \centering
-\includegraphics[width=1.0\textwidth] {./figs/trend1.eps}
-\caption{A comparison between the measured (black) and approximated absolute mobility (gray). A bivariate normal distribution reproduces the historical trend of the rate of absolute mobility (the calculations are based on the pre-tax income per capita and pre-tax income distribution reported in~\citet{PikettyZucman2014} and~\citet{WID2017} assuming fixed correlation of $\rho=0.57$).}
+\includegraphics[width=1.0\textwidth] {./figs/trend2.eps}
+\caption{A comparison between the measured (black) and approximated absolute mobility (gray). A bivariate normal distribution reproduces the historical trend of the rate of absolute mobility (the calculations are based on the pre-tax income per capita and pre-tax income distribution reported in~\citet{PikettyZucman2014} and~\citet{WID2017} assuming fixed correlation of $\rho=0.313$). The correlation coefficient between the measured and approximated time series was $0.91$.}
 \flabel{trend}
 \end{figure}
 
@@ -214,7 +214,7 @@ One hypothetical sample of the joint parents and children log-income distributio
 \begin{figure}[!htb]
 \centering
 \includegraphics[width=1.0\textwidth]{./figs/bivariate_lines3.eps}
-\caption{An illustration of the absolute and relative mobility measures. The black circles are a randomly chosen sample of 100 parent-child log-income pairs, assuming a bivariate normal distribution. The parameters used were $\mu_p=10.1$, $\sigma_p=0.78$ (for the parents marginal distribution) and $\mu_c=10.25$, $\sigma_c=1.15$ (for the children marginal distribution) with correlation of $\rho=0.57$. The resulting $\alpha$ and $\beta$ were $1.8$ and $0.84$, respectively.}
+\caption{An illustration of the absolute and relative mobility measures. The black circles are a randomly chosen sample of 100 parent-child log-income pairs, assuming a bivariate normal distribution. The parameters used were $\mu_p=10.1$, $\sigma_p=0.78$ (for the parents marginal distribution) and $\mu_c=10.25$, $\sigma_c=1.15$ (for the children marginal distribution) with correlation of $\rho=0.6$. The resulting $\alpha$ and $\beta$ were $1.8$ and $0.84$, respectively.}
 \flabel{lines}
 \end{figure}
 
@@ -280,9 +280,11 @@ If we denote the per-capita pre-tax income as $m$, it follows that the parameter
 \mu = \log{\left(m\right)} - \frac{\sigma^2}{2}
 \ee
 
-We then use Eqs.~(\ref{eq:beta_rho}--\ref{eq:abs3}) to calculate the historical value of $A$, while fitting the correlation $\rho$ to a fixed value which minimizes the sum of squared errors from the values reported by~\citet{chetty2017fading}.
+Using Eqs.~(\ref{eq:beta_rho}--\ref{eq:abs3}) in order to calculate the historical value of $A$ also requires knowing the correlation $\rho$.~\citet{chetty2014land} report a consistent rank-rank slope of $0.3$, which corresponds to a fixed value of $\rho=2\sin{\left(0.05\pi\right)}\approx0.313$ (see the proof of~\creflong{coro1} or~\citet{trivedi2007copula} for the relationship between $\rho$ and the rank-rank slope).
 
-The gray curve in~\fref{trend} shows that the model reproduces faithfully the evolution of absolute mobility reported by~\citet{chetty2017fading}, despite its comparative methodological na\"{i}vety. In Appendix~\ref{app:appB} we show that this result is robsut under different choices of copula and when the gamma distribution approximation for the marginal income distributions is used instead of the log-normal approximation.
+The gray curve in~\fref{trend} shows that the model reproduces faithfully the evolution of absolute mobility reported by~\citet{chetty2017fading}, despite its comparative methodological na\"{i}vety. The correlation coefficient between the measured and approximated time series was $0.91$. The model only fails in reproducing the reported absolute mobility for the 1940s birth cohorts. A possible explanation is that for these cohorts the value of $\rho$, and hence the IGE and the RRS values, were higher than the reported RRS of $0.3$, since this estimation was based only on the $1971$--$1986$ birth cohorts~\citep{chetty2014land}. However, this cannot be the only explanation, since the quoted absolute mobility values are also based on a time-constant RRS~\citep{chetty2017fading}.
+
+In Appendix~\ref{app:appB} we show that our results are robsut under different choices of copula and when the gamma distribution approximation for the marginal income distributions is used instead of the log-normal approximation. The choice of copula is of no importance to the values of the absolute mobility. In addition, the log-normal approximation for the marginal distributions provides consistent better results than the gamma distribution approximation.
 
 Having established the model's empirical soundness, we can use its properties to further study the measures of mobility -- $A$, $R_1$ and $R_2$. Eqs.~(\ref{eq:abs2}--\ref{eq:abs3}) demonstrate that the rate of absolute mobility can be explicitly described as a function of the relative mobility measures $R_1$ and $R_2$.~\fref{relat} shows $A$ as a function of $R_1$ and $R_2$ for different birth cohorts in the United States. It shows that the bivariate normal model -- with positive income growth and inequality changes consistent with data, but absent other effects -- predicts an \textit{inverse} relationship between absolute and relative mobility.
 
@@ -407,47 +409,47 @@ A = \Phi\left(\frac{\mu_c - \mu_p}{\sqrt{\sigma_p^2\left(1 - \frac{4\sigma_c}{\s
 \section{Model robustness check}
 \label{app:appB}
 
-Our analysis was done for a bivariate log-normal model, assuming the marginal log-income distributions are normal and that their copula is Gaussian. This enables the derivation of \eref{abs2}, useful for investigating the relationship between absolute and relative mobility. This model for the joint income distributions of parents and children was found as unsatisfactory for some applications~\citep{bonhomme2009assessing}. Therefore, we wish to check how robust is this model when compared to other possible models.
+Our analysis was done for a bivariate log-normal model, assuming the marginal log-income distributions are normal and that their copula is Gaussian. This enables the derivation of \eref{abs2}, useful for investigating the relationship between absolute and relative mobility. This model for the joint income distributions of parents and children was found as unsatisfactory for some applications~\citep{bonhomme2009assessing}. Therefore, we wish to check how robust is this model when compared to other possible models, specifically applying it for calculating absolute mobility.
 
 For that purpose we assume two possible shapes for the marginal income distributions -- log-normal and gamma, both used in numerous studies as approximations of empirical income distributions~\citep{salem1974convenient,pinkovskiy2009parametric}. The historical parameters for the marginal distributions were calculated using data for the per capita pre-tax income in the United States~\citep{PikettyZucman2014} and the income share data~\citep{WID2017}, as described in~\ref{sec:results}.
 
-In addition, we assume four possible copula forms -- Gaussian, Clayton, Gumbel and Plackett. Please refer to~\citet{trivedi2007copula} and~\citet{bonhomme2009assessing} for a discussion in uses of the different copula forms and their mathematical properties.
+In addition, we assume four possible copula forms -- Gaussian, Clayton, Gumbel and Plackett. The reader is referred to~\citet{trivedi2007copula} and~\citet{bonhomme2009assessing} for a discussion in different uses of the different copula forms and their mathematical properties.
 
-We test eight cases, assuming each form of copula assuming log-normal and gamma marginal distributions. For each case we use least squares fitting to fit one parameter, the copula dependence parameter $\theta$~\citep{trivedi2007copula}, so it best reproduces the measured $A$, reported by~\citet{chetty2017fading}. For each case we also calculate its root-mean-square deviation (RMSD) from the data and the relative absolute error (RAE).
+We test eight cases -- assuming each copula form and assuming log-normal and gamma marginal distributions. For each copula choice we also calculate the copula dependence parameter $\theta$~\citep{trivedi2007copula}, so it produces a rank-rank slope of $0.3$~\citep{chetty2014land}. For each case we calculate its root-mean-square deviation (RMSD) from the data and the relative absolute error (RAE).
 
-The results of the robustness check are presented in~\tref{robust}. They show that using the gamma marginal distributions yields slightly higher $R^2$ than when using log-normal marginal distributions. However, using log-normal marginal distributions results in somewhat lower RMSD and RAE. None of the eight possible combinations of marginal distribution and copula stands out in particular.
+The results of the robustness check are presented in~\tref{robust}. They show that using the log-normal marginal distributions yields consistently better results than when using gamma marginal distributions. In addition, the result were essentially independent of the copula form choice. None of the eight possible combinations of marginal distribution and copula stood out in comparison to the others.
 
 \begin{table}[!htb]
 \ra{1.1}
 \centering
 \captionof{table}{Model robustness check results}\tlabel{robust}
-\begin{tabular}{@{}llccc@{}}\toprule[1.5pt]
-Marginal distribution & Copula & $R^2$ & RMSD & RAE\\
+\begin{tabular}{@{}llcc@{}}\toprule[1.5pt]
+Marginal distribution & Copula & RMSD & RAE\\
 \midrule[1.5pt]
 \multirow{ 4}{*}{Log-normal}
-& Gaussian & 0.767 & 0.051 & 0.355\\
-& Clayton & 0.781 & 0.053 & 0.400\\
-& Gumbel & 0.727 & 0.053 & 0.365\\
-& Plackett & 0.750 & 0.052 & 0.364\\
+& Gaussian & 0.06 & 0.42\\
+& Clayton & 0.06 & 0.43\\
+& Gumbel &  0.06 & 0.39\\
+& Plackett & 0.06 & 0.42\\
 \midrule[1.5pt]
 \multirow{ 4}{*}{Gamma}
-& Gaussian & 0.839 & 0.058 & 0.480\\
-& Clayton & 0.712 & 0.080 & 0.602\\
-& Gumbel & 0.839 & 0.050 & 0.385\\
-& Plackett & 0.826 & 0.061 & 0.513\\
+& Gaussian  & 0.10 & 0.76\\
+& Clayton  & 0.10 & 0.80\\
+& Gumbel  & 0.09 & 0.67\\
+& Plackett & 0.09 & 0.72\\
 \bottomrule[1.5pt]
 \end{tabular}
 \end{table}
 
-\Fref{copulas1} depicts the absolute intergenerational mobility resulting in each of the eight combinations in comparison to data. It shows that for the log-normal marginal distribution the differences between the different copulas is very small. The difference between the Gaussian and Plackett copulas is practically undetectable. This is also the case for the gamma marginal distribution. For the gamma marginal distribution, however, the calculated absolute intergenerational mobility shows a pronounced difference from the data for the birth cohorts of 1965--1980.
+\Fref{copulas1} depicts the absolute intergenerational mobility resulting in each of the eight combinations in comparison to data. It illustrates the results presented in~\tref{robust} -- particularly that the difference between the various copula forms is very small and that the log-normal approximation provides a much better description of the absolute mobility dynamics than the gamma distribution approximation.
 
 \begin{figure}[!htb]
 \centering
-\includegraphics[width=1.0\textwidth]{./figs/copulas1.eps}
-\caption{A comparison between the measured (black) and calculated absolute mobility for different copula forms. Left: using log-normal marginal distributions; Right: using gamma marginal distributions.}
+\includegraphics[width=1.0\textwidth]{./figs/copulas3.eps}
+\caption{A comparison between the measured (black) and calculated absolute mobility for different copula forms using log-normal marginal distributions (solid lines) and using gamma marginal distributions (dashed lines).}
 \flabel{copulas1}
 \end{figure}
 
-The robustness check shows that the differences between the considered combinations are generally small. In particular, the Gaussian copula with log-normal marginal distributions provides results which are as good as the other combinations. Therefore, we conclude that for the purpose of modeling the dynamics of absolute mobility, the bivariate log-normal model is indeed a good model.
+The robustness check shows that the Gaussian copula with log-normal marginal distributions, \ie the bivariate log-normal model, provides results which are no worse than any other combination. We therefore conclude that for the purpose of modeling the dynamics of absolute mobility, the bivariate log-normal model is indeed a good model.
 
 \end{document}
