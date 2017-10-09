@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350 64-bit) (preloaded format=pdflatex 2017.10.3)  9 OCT 2017 16:32
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350 64-bit) (preloaded format=pdflatex 2017.10.3)  9 OCT 2017 19:50
 entering extended mode
 **./mobility_restat.tex
 (mobility_restat.tex
@@ -1020,7 +1020,7 @@ Package epstopdf Info: Source file: <./figs/trend2.eps>
 df ./figs/trend2.eps>
 (epstopdf)             \includegraphics on input line 172.
 Package epstopdf Info: Output file is already uptodate.
-<./trend2-eps-converted-to.pdf, id=100, pagebox=cropbox, 333.245pt x 261.97874p
+<./trend2-eps-converted-to.pdf, id=102, pagebox=cropbox, 333.245pt x 261.97874p
 t>
 File: ./trend2-eps-converted-to.pdf Graphic file (type pdf)
 <use ./trend2-eps-converted-to.pdf>
@@ -1045,7 +1045,7 @@ Package epstopdf Info: Source file: <./figs/bivariate_lines3.eps>
 erted-to.pdf ./figs/bivariate_lines3.eps>
 (epstopdf)             \includegraphics on input line 216.
 Package epstopdf Info: Output file is already uptodate.
-<./bivariate_lines3-eps-converted-to.pdf, id=176, pagebox=cropbox, 357.335pt x 
+<./bivariate_lines3-eps-converted-to.pdf, id=180, pagebox=cropbox, 357.335pt x 
 260.975pt>
 File: ./bivariate_lines3-eps-converted-to.pdf Graphic file (type pdf)
 <use ./bivariate_lines3-eps-converted-to.pdf>
@@ -1062,16 +1062,16 @@ Package epstopdf Info: Source file: <./figs/R1_R2.eps>
 (epstopdf)                    size: 12122 bytes
 (epstopdf)             Command: <epstopdf --outfile=./R1_R2-eps-converted-to.pd
 f ./figs/R1_R2.eps>
-(epstopdf)             \includegraphics on input line 293.
+(epstopdf)             \includegraphics on input line 295.
 Package epstopdf Info: Output file is already uptodate.
-<./R1_R2-eps-converted-to.pdf, id=265, pagebox=cropbox, 504.88625pt x 303.1325p
+<./R1_R2-eps-converted-to.pdf, id=269, pagebox=cropbox, 504.88625pt x 303.1325p
 t>
 File: ./R1_R2-eps-converted-to.pdf Graphic file (type pdf)
 <use ./R1_R2-eps-converted-to.pdf>
-Package pdftex.def Info: ./R1_R2-eps-converted-to.pdf  used on input line 293. 
-on input line 293.
+Package pdftex.def Info: ./R1_R2-eps-converted-to.pdf  used on input line 295. 
+on input line 295.
 Package pdftex.def Info: Requested size: 469.75502pt x 282.04445pt on input lin
-e 293.
+e 295.
  [9] [10 <./R1_R2-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <./figs/countries0.eps>
 (epstopdf)                    date: 2017-10-09 16:29:24
@@ -1081,16 +1081,16 @@ Package epstopdf Info: Source file: <./figs/countries0.eps>
 (epstopdf)                    size: 11960 bytes
 (epstopdf)             Command: <epstopdf --outfile=./countries0-eps-converted-
 to.pdf ./figs/countries0.eps>
-(epstopdf)             \includegraphics on input line 308.
+(epstopdf)             \includegraphics on input line 310.
 Package epstopdf Info: Output file is already uptodate.
-<./countries0-eps-converted-to.pdf, id=304, pagebox=cropbox, 333.245pt x 261.97
+<./countries0-eps-converted-to.pdf, id=308, pagebox=cropbox, 333.245pt x 261.97
 874pt>
 File: ./countries0-eps-converted-to.pdf Graphic file (type pdf)
 <use ./countries0-eps-converted-to.pdf>
 Package pdftex.def Info: ./countries0-eps-converted-to.pdf  used on input line 
-308. on input line 308.
+310. on input line 310.
 Package pdftex.def Info: Requested size: 469.75502pt x 369.32213pt on input lin
-e 308.
+e 310.
  [11 <./countries0-eps-converted-to.pdf>] [12]
 (mobility_restat.bbl [13
 
@@ -1105,34 +1105,34 @@ Package epstopdf Info: Source file: <./figs/copulas3.eps>
 (epstopdf)                    size: 49467 bytes
 (epstopdf)             Command: <epstopdf --outfile=./copulas3-eps-converted-to
 .pdf ./figs/copulas3.eps>
-(epstopdf)             \includegraphics on input line 461.
+(epstopdf)             \includegraphics on input line 463.
 Package epstopdf Info: Output file is already uptodate.
-<./copulas3-eps-converted-to.pdf, id=414, pagebox=cropbox, 309.155pt x 282.0537
+<./copulas3-eps-converted-to.pdf, id=418, pagebox=cropbox, 309.155pt x 282.0537
 6pt>
 File: ./copulas3-eps-converted-to.pdf Graphic file (type pdf)
 <use ./copulas3-eps-converted-to.pdf>
 Package pdftex.def Info: ./copulas3-eps-converted-to.pdf  used on input line 46
-1. on input line 461.
+3. on input line 463.
 Package pdftex.def Info: Requested size: 469.75502pt x 428.61424pt on input lin
-e 461.
+e 463.
  [19] [20 <./copulas3-eps-converted-to.pdf>]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 468.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 468.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 470.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 470.
  (mobility_restat.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 468.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 468.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 470.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 470.
 Package rerunfilecheck Info: File `mobility_restat.out' has not changed.
 (rerunfilecheck)             Checksum: 5C330160F4C7EA26F9BCDDCF58B4630A;585.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 468.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 470.
  ) 
 Here is how much of TeX's memory you used:
- 21881 strings out of 493318
- 407740 string characters out of 3138989
- 478545 words of memory out of 3000000
- 24875 multiletter control sequences out of 15000+200000
+ 21885 strings out of 493318
+ 407845 string characters out of 3138989
+ 478597 words of memory out of 3000000
+ 24878 multiletter control sequences out of 15000+200000
  14792 words of font info for 58 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 55i,18n,92p,1260b,469s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 55i,18n,92p,1277b,469s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Pr
 ogram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Program Fi
 les/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Program Files/MiKT
@@ -1151,9 +1151,9 @@ msfonts/cm/cmti10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/
 cm/cmti12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmtt1
 2.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/symbols/msam10.p
 fb>
-Output written on mobility_restat.pdf (21 pages, 410483 bytes).
+Output written on mobility_restat.pdf (21 pages, 411490 bytes).
 PDF statistics:
- 511 PDF objects out of 1000 (max. 8388607)
- 86 named destinations out of 1000 (max. 500000)
+ 515 PDF objects out of 1000 (max. 8388607)
+ 87 named destinations out of 1000 (max. 500000)
  118 words of extra memory for PDF output out of 10000 (max. 10000000)
 
