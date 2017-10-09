@@ -170,7 +170,7 @@ While relative intergenerational mobility has been studied for decades~\citep{be
 \begin{figure}[!htb]
 \centering
 \includegraphics[width=1.0\textwidth] {./figs/trend2.eps}
-\caption{A comparison between the measured (black) and approximated absolute mobility (gray). A bivariate normal distribution reproduces the historical trend of the rate of absolute mobility (the calculations are based on the pre-tax income per capita and pre-tax income distribution reported in~\citet{PikettyZucman2014} and~\citet{WID2017} assuming fixed correlation of $\rho=0.313$). The correlation coefficient between the measured and approximated time series was $0.91$.}
+\caption{A comparison between the measured (black) and approximated absolute mobility (gray). A bivariate normal distribution reproduces the historical trend of the rate of absolute mobility (the calculations are based on the pre-tax national income per adult and pre-tax income distribution reported in~\citet{WID2017} assuming fixed correlation of $\rho=0.313$). The correlation coefficient between the measured and approximated time series was $0.91$.}
 \flabel{trend}
 \end{figure}
 
@@ -268,10 +268,10 @@ where $\Phi$ is the cumulative distribution function of the standard normal dist
 
 Our next step is to test whether the bivariate normal model for the joint distribution of the log-incomes is empirically sound. For that purpose we compare the model prediction for the historical rate of absolute mobility in the United States with the historical rate reported by~\citet{chetty2017fading}.
 
-We use data for the per capita pre-tax income in the United States~\citep{PikettyZucman2014} and the income share data~\citep{WID2017} to obtain $\mu_p$, $\sigma_p$, $\mu_c$ and $\sigma_c$ every year. Since in the log bivariate normal model, the marginal log-income distributions are normal, these parameters can be obtained directly and no fit is required. The Lorenz curve of the log-normal distribution $\log{\mathcal{N}}\left(\mu,\sigma^2\right)$ is $\Phi\left(\Phi^{-1}\left(z\right)-\sigma\right)$~\citep{cowell2011measuring}. Therefore, top $1\%$ income share $s$ corresponds to
+We use data for the pre-tax national income per adult in the United States and the income share data~\citep{WID2017} to obtain $\mu_p$, $\sigma_p$, $\mu_c$ and $\sigma_c$ every year. Since in the log bivariate normal model, the marginal log-income distributions are normal, these parameters can be obtained directly and no fit is required. The Lorenz curve of the log-normal distribution $\log{\mathcal{N}}\left(\mu,\sigma^2\right)$ is $\Phi\left(\Phi^{-1}\left(z\right)-\sigma\right)$~\citep{cowell2011measuring}. Therefore, top $1\%$ income share $s$ corresponds to
 
 \be
-\sigma = \Phi^{-1}\left(0.99\right) - \Phi^{-1}\left(s\right)
+\sigma = \Phi^{-1}\left(0.99\right) - \Phi^{-1}\left(1-s\right)
 \ee
 
 If we denote the per-capita pre-tax income as $m$, it follows that the parameter $\mu$ is
@@ -280,7 +280,7 @@ If we denote the per-capita pre-tax income as $m$, it follows that the parameter
 \mu = \log{\left(m\right)} - \frac{\sigma^2}{2}
 \ee
 
-Using Eqs.~(\ref{eq:beta_rho}--\ref{eq:abs3}) in order to calculate the historical value of $A$ also requires knowing the correlation $\rho$.~\citet{chetty2014land} report a consistent rank-rank slope of $0.3$, which corresponds to a fixed value of $\rho=2\sin{\left(0.05\pi\right)}\approx0.313$ (see the proof of~\creflong{coro1} or~\citet{trivedi2007copula} for the relationship between $\rho$ and the rank-rank slope).
+Using Eqs.~(\ref{eq:beta_rho}--\ref{eq:abs3}) in order to calculate the historical value of $A$ also requires knowing the correlation $\rho$.~\citet{chetty2014land} report a consistent RRS of $0.3$, which corresponds to a fixed value of $\rho=2\sin{\left(0.05\pi\right)}\approx0.313$ (see the proof of~\creflong{coro1} or~\citet{trivedi2007copula} for the relationship between $\rho$ and the RRS).
 
 The gray curve in~\fref{trend} shows that the model reproduces faithfully the evolution of absolute mobility reported by~\citet{chetty2017fading}, despite its comparative methodological na\"{i}vety. The correlation coefficient between the measured and approximated time series was $0.91$. The model only fails in reproducing the reported absolute mobility for the 1940s birth cohorts. A possible explanation is that for these cohorts the value of $\rho$, and hence the IGE and the RRS values, were higher than the reported RRS of $0.3$, since this estimation was based only on the $1971$--$1986$ birth cohorts~\citep{chetty2014land}. However, this cannot be the only explanation, since the quoted absolute mobility values are also based on a time-constant RRS~\citep{chetty2017fading}.
 
@@ -296,6 +296,19 @@ Having established the model's empirical soundness, we can use its properties to
 \end{figure}
 
 \Pref{prop2} illustrates that the rate of absolute mobility increases with increasing income growth and decreases with increasing income inequality, as described by~\citet{chetty2017fading}. However, it also demonstrates that an additional mechanism can be at play, since the rate of absolute mobility decreases with increasing relative mobility. The direct implication is that if the relative mobility in the United States had been decreasing during the past few decades, as some argue~\citep{aaronson2008intergenerational,putnam2012growing}, the decrease in absolute mobility is less significant than reported by~\citet{chetty2017fading}.
+
+\subsection{Estimating absolute mobility globally}
+
+Without directly estimating absolute mobility the way done by~\citet{chetty2017fading}, it is also possible to use the bivariate log-normal model for describing the dynamics of absolute mobility in many countries under the assumption that their RRS is fixed and is known. Although this seems as a very limiting assumption, in practice, in most cases the effect of the RRS value on the estimated absolute mobility is relatively mild. A $10\%$ error in the estimation of the RRS yields an error of about $1\%$ in the average estimated absolute mobility for the US. We note, however, that for specific birth cohorts the effect of changing the RRS on the absolute mobility may dramatic, as illustrated in~\fref{relat}.
+
+Using available data on the marginal income distributions and on relative intergenerational mobility, we demonstrate how one can produce estimates of absolute intergenerational mobility without the need for high-quality panel data sets. Such data sets remain unavailable in most countries. This is depicted in~\fref{countries} for France and Sweden, in addition to the reproduced absolute mobility in the US presented above. The calculations are based on the pre-tax national income per adult and the income share data for France and Sweden reported in~\citet{WID2017} and on measurements of the IGE as reported by~\citet{lefranc2005intergenerational} for France and by~\citet{bjorklund1997intergenerational} for Sweden. These results indicate that the decrease in absolute mobility rates for also occurred in France and Sweden, mainly due to the increasing income inequality in those countries. However, these rates remain higher than in the US.
+
+\begin{figure}[!htb]
+\centering
+\includegraphics[width=1.0\textwidth] {./figs/countries0.eps}
+\caption{Estimated rate of absolute mobility in the US, France and Sweden assuming the bivariate log-normal model and assuming fixed RRS of $0.3$~\citep{chetty2014land}, $0.42$~\citep{lefranc2005intergenerational} and $0.3$~\citep{bjorklund1997intergenerational}, respectively.}
+\flabel{countries}
+\end{figure}
 
 \section{Discussion}
 
@@ -411,7 +424,7 @@ A = \Phi\left(\frac{\mu_c - \mu_p}{\sqrt{\sigma_p^2\left(1 - \frac{4\sigma_c}{\s
 
 Our analysis was done for a bivariate log-normal model, assuming the marginal log-income distributions are normal and that their copula is Gaussian. This enables the derivation of \eref{abs2}, useful for investigating the relationship between absolute and relative mobility. This model for the joint income distributions of parents and children was found as unsatisfactory for some applications~\citep{bonhomme2009assessing}. Therefore, we wish to check how robust is this model when compared to other possible models, specifically applying it for calculating absolute mobility.
 
-For that purpose we assume two possible shapes for the marginal income distributions -- log-normal and gamma, both used in numerous studies as approximations of empirical income distributions~\citep{salem1974convenient,pinkovskiy2009parametric}. The historical parameters for the marginal distributions were calculated using data for the per capita pre-tax income in the United States~\citep{PikettyZucman2014} and the income share data~\citep{WID2017}, as described in~\ref{sec:results}.
+For that purpose we assume two possible shapes for the marginal income distributions -- log-normal and gamma, both used in numerous studies as approximations of empirical income distributions~\citep{salem1974convenient,pinkovskiy2009parametric}. The historical parameters for the marginal distributions were calculated using data for the pre-tax national income per adult in the United States and the income share data~\citep{WID2017}, as described in~\ref{sec:results}.
 
 In addition, we assume four possible copula forms -- Gaussian, Clayton, Gumbel and Plackett. The reader is referred to~\citet{trivedi2007copula} and~\citet{bonhomme2009assessing} for a discussion in different uses of the different copula forms and their mathematical properties.
 
