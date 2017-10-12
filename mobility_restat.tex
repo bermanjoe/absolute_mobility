@@ -1,4 +1,4 @@
-\documentclass[12pt]{article}
+\documentclass[12pt,a4paper]{article}
 
 \usepackage{float}
 \usepackage{placeins}
@@ -133,7 +133,7 @@
 
 \begin{titlepage}
 \title{The relationship between relative and absolute mobility -- theory and empirics}
-\author{Yonatan Berman\footnote{Paris School of Economics, Paris, France, yonatanb@post.tau.ac.il}\, and Alexander Adamou\footnote{London Mathematical Laboratory, London, UK, a.adamou@lml.org.uk} \thanks{We wish to thank Tslil Aloni, Mikkel H\o st Gandil, Ole Peters, Yoash Shapira and Alex Teytelboym for fruitful discussions and for their feedback on the manuscript.}}
+\author{Yonatan Berman\footnote{Paris School of Economics, Paris, France, yonatan.berman@psemail.eu}\, and Alexander Adamou\footnote{London Mathematical Laboratory, London, UK, a.adamou@lml.org.uk} \thanks{We wish to thank Tslil Aloni, Mikkel H\o st Gandil, Ole Peters, Yoash Shapira and Alex Teytelboym for fruitful discussions and for their feedback on the manuscript.}}
 \date{Original version: June 20, 2017\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,\,Last updated: \today}
 %\date{Last updated: \today}
 \maketitle
@@ -286,7 +286,48 @@ The gray curve in~\fref{trend} shows that the model reproduces faithfully the ev
 
 In Appendix~\ref{app:appB} we show that our results are robust under different choices of copula and when the gamma distribution approximation for the marginal income distributions is used instead of the log-normal approximation. The choice of copula is of no importance to the values of the absolute mobility. In addition, the log-normal approximation for the marginal distributions provides consistent better results than the gamma distribution approximation.
 
-%\subsection{The theoretical relationship between absolute and relative mobility measures}
+\subsection{Absolute mobility and median incomes}
+
+\citet{chetty2017fading} also find that the share of children earning more than the median parent declined from 92\% in the 1940 birth cohort to 45\% in the 1984 cohort~\citep{katz2017documenting}. This alternative definition of absolute mobility move almost identically to $A$ across cohorts in the United States~\citep{katz2017documenting}. Defining the share of children earning more than the median parent as $\tilde{A}$, it simply follows that in the bivariate log-normal model $\tilde{A}$ is defined as
+
+\be
+\tilde{A} \equiv \Phi\left(\frac{\mu_c-\mu_p}{\sigma_c} \right)\,,
+\elabel{tildeA}
+\ee
+where $\Phi$ is the cumulative distribution function of the standard normal distribution.
+
+Using $\tilde{A}$ has obvious advantages over $A$. In particular, they can be ``directly computed from standard public-use cross-sectional household survey data and do not require data that longitudinally link children to parents''~\citep[p.~382]{katz2017documenting}. However, $\tilde{A}$ would be close to $A$ only if the IGE is close to $0.5$:
+
+\begin{proposition}
+\label{prop:prop3}
+
+For a bivariate normal distribution with parameters $\mu_p$, $\sigma_p$ (for the parents marginal distribution), $\mu_c$, $\sigma_c$ (for the children marginal distribution) and assuming IGE of $\beta$, then
+
+\be
+A=\tilde{A} \iff \beta=\frac{1}{2}\,.
+\ee
+\end{proposition}
+
+It is therefore no surprise that for the United States $A$ and $\tilde{A}$ are relatively similar --~\citet{aaronson2008intergenerational} estimate the IGE for the $1950$--$1970$ birth cohorts at $0.46$--$0.58$. In countries such as Denmark or Finland, in which the IGE is substantially lower than $0.5$~\citep{corak2013income}, using $\tilde{A}$ neglects the part high relative mobility plays in determining $A$. This will lead to significant overestimation of absolute intergenerational mobility. For example, in Denmark, the average estimated $A$ for $1950$--$1980$ birth cohorts is $78.7\%$ (see~\sref{global}). If $\tilde{A}$ is considered, the average value is $87\%$. For the United States this difference would be considerably smaller -- $70.7\%$ and $72.8\%$, respectively. Setting aside the normative question on which measure of absolute intergenerational mobility is of particular interest, we emphasize that $\tilde{A}$ cannot be used as a proxy for $A$, unless the IGE is close to $0.5$.
+
+\subsection{Estimating absolute mobility globally}
+\label{sec:global}
+
+Without directly estimating absolute mobility the way done by~\citet{chetty2017fading}, it is possible to use the bivariate log-normal model for describing the dynamics of absolute mobility in many countries under the assumption that their RRS is fixed and is known. Although this seems as a very limiting assumption, in practice, in most cases, the effect of the RRS value on the estimated absolute mobility is relatively mild. A $10\%$ error in the estimation of the RRS yields an error of about $1\%$ in the average estimated absolute mobility for the United States. We note, however, that for specific birth cohorts the effect of changing the RRS on the absolute mobility may be dramatic, as described below and illustrated in~\fref{relat}.
+
+Using available data on the marginal income distributions and on relative intergenerational mobility, we demonstrate how one can produce estimates of absolute intergenerational mobility without the need for high-quality panel data sets. Such data sets remain unavailable in most countries. This is depicted in~\fref{countries} for France, Sweden and Denmark, in addition to the reproduced absolute mobility in the United States presented above. The calculations are based on the pre-tax national income per adult and the income share data for France, Sweden and Denmark as reported in~\citet{WID2017} and on measurements of the IGE as reported by~\citet{lefranc2005intergenerational} for France, by~\citet{bjorklund1997intergenerational} for Sweden and by~\citet{landerso2016scandinavian} for Denmark.
+
+\begin{figure}[!htb]
+\centering
+\includegraphics[width=1.0\textwidth] {./figs/countries1.eps}
+\caption{Estimated rate of absolute mobility in the United States, France, Sweden and Denmark assuming the bivariate log-normal model and assuming fixed RRS of $0.3$~\citep{chetty2014land}, $0.42$~\citep{lefranc2005intergenerational}, $0.3$~\citep{bjorklund1997intergenerational} and $0.19$~\citep{landerso2016scandinavian}, respectively.}
+\flabel{countries}
+\end{figure}
+
+The results indicate that the decrease in absolute mobility rates found in the United States also occurred in France, Sweden and Denmark, however in these countries, this decrease in mainly due to decreasing income growth rates rather than rising inequality. The results also echo stylized facts of relative mobility -- Denmark and Sweden are found as the most mobile of the countries analyzed, and the United States as the least.
+
+\subsection{Absolute and relative intergenerational mobility}
+\label{sec:theory}
 
 Having established the model's empirical soundness, we can use its properties to further study the measures of mobility -- $A$, $R_1$ and $R_2$. Eqs.~(\ref{eq:abs2}--\ref{eq:abs3}) demonstrate that the rate of absolute mobility can be explicitly described as a function of the relative mobility measures $R_1$ and $R_2$.~\fref{relat} shows $A$ as a function of $R_1$ and $R_2$ for different birth cohorts in the United States. It shows that the bivariate normal model -- with positive income growth and inequality changes consistent with data, but absent other effects -- predicts an \textit{inverse} relationship between absolute and relative mobility.
 
@@ -299,18 +340,7 @@ Having established the model's empirical soundness, we can use its properties to
 
 \Pref{prop2} illustrates that the rate of absolute mobility increases with increasing income growth and decreases with increasing income inequality, as described by~\citet{chetty2017fading}. However, it also demonstrates that an additional mechanism can be at play, since the rate of absolute mobility decreases with increasing relative mobility. The direct implication is that if the relative mobility in the United States had been decreasing during the past few decades, as some argue~\citep{aaronson2008intergenerational,putnam2012growing}, the decrease in absolute mobility is less significant than reported by~\citet{chetty2017fading}.
 
-\subsection{Estimating absolute mobility globally}
-
-Without directly estimating absolute mobility the way done by~\citet{chetty2017fading}, it is also possible to use the bivariate log-normal model for describing the dynamics of absolute mobility in many countries under the assumption that their RRS is fixed and is known. Although this seems as a very limiting assumption, in practice, in most cases, the effect of the RRS value on the estimated absolute mobility is relatively mild. A $10\%$ error in the estimation of the RRS yields an error of about $1\%$ in the average estimated absolute mobility for the United States. We note, however, that for specific birth cohorts the effect of changing the RRS on the absolute mobility may be dramatic, as illustrated in~\fref{relat}.
-
-Using available data on the marginal income distributions and on relative intergenerational mobility, we demonstrate how one can produce estimates of absolute intergenerational mobility without the need for high-quality panel data sets. Such data sets remain unavailable in most countries. This is depicted in~\fref{countries} for France and Sweden, in addition to the reproduced absolute mobility in the United States presented above. The calculations are based on the pre-tax national income per adult and the income share data for France and Sweden reported in~\citet{WID2017} and on measurements of the IGE as reported by~\citet{lefranc2005intergenerational} for France and by~\citet{bjorklund1997intergenerational} for Sweden. These results indicate that the decrease in absolute mobility rates also occurred in France and Sweden, mainly due to the increasing income inequality in those countries. However, these rates remain higher than in the United States.
-
-\begin{figure}[!htb]
-\centering
-\includegraphics[width=1.0\textwidth] {./figs/countries0.eps}
-\caption{Estimated rate of absolute mobility in the United States, France and Sweden assuming the bivariate log-normal model and assuming fixed RRS of $0.3$~\citep{chetty2014land}, $0.42$~\citep{lefranc2005intergenerational} and $0.3$~\citep{bjorklund1997intergenerational}, respectively.}
-\flabel{countries}
-\end{figure}
+\Fref{relat} seemingly stands in contrast to the findings about absolute intergenerational mobility in the United States, France, Sweden and Denmark (see~\fref{countries}), since the absolute and relative mobility in those countries were found to be ordered similarly. However, in practice, had the relative mobility in the United States been higher, the difference in absolute mobility rates with respect to the other countries would have become even larger.
 
 \section{Discussion}
 
@@ -417,6 +447,34 @@ Substituting into~\eref{abs2} we obtain
 
 \be
 A = \Phi\left(\frac{\mu_c - \mu_p}{\sqrt{\sigma_p^2\left(1 - \frac{4\sigma_c}{\sigma_p}\sin{\left(\frac{\pi\left(1-R_2\right)}{6}\right)}\right) + \sigma_c^2}}\right) \,.
+\ee
+
+\qed
+
+\subsection{Proof of \preflong{prop3}}
+
+Following~\eref{abs2}
+
+\be
+A = \Phi\left(\frac{\mu_c - \mu_p}{\sqrt{\sigma_p^2\left(1 - 2\beta\right) + \sigma_c^2}}\right) \,.
+\ee
+
+Following~\eref{tildeA}
+
+\be
+\tilde{A} = \Phi\left(\frac{\mu_c-\mu_p}{\sigma_c} \right)
+\ee
+
+Therefore
+
+\be
+\tilde{A}=A \iff \frac{\mu_c - \mu_p}{\sqrt{\sigma_p^2\left(1 - 2\beta\right) + \sigma_c^2}} = \pm\frac{\mu_c-\mu_p}{\sigma_c}\,.
+\ee
+
+We then obtain
+
+\be
+\frac{\mu_c - \mu_p}{\sqrt{\sigma_p^2\left(1 - 2\beta\right) + \sigma_c^2}} = \pm\frac{\mu_c-\mu_p}{\sigma_c} \iff \sigma_c = \pm\sqrt{\sigma_p^2\left(1 - 2\beta\right) + \sigma_c^2} \iff \beta = \frac{1}{2}\,.
 \ee
 
 \qed
