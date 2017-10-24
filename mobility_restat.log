@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/W32TeX) (preloaded format=pdflatex 2017.3.17)  24 OCT 2017 21:15
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/W32TeX) (preloaded format=pdflatex 2017.3.17)  24 OCT 2017 21:16
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -824,16 +824,12 @@ Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 538.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 538.
 Package rerunfilecheck Info: File `mobility_restat.out' has not changed.
 (rerunfilecheck)             Checksum: 454B264E966241AFE2A0B0C9C6F4DA7F;832.
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 538.
  ) 
 Here is how much of TeX's memory you used:
  11440 strings out of 493013
  171910 string characters out of 6136993
- 280927 words of memory out of 5000000
+ 280979 words of memory out of 5000000
  14653 multiletter control sequences out of 15000+600000
  14792 words of font info for 58 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -859,7 +855,7 @@ b><c:/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb><c:/tex
 live/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb><c:/texlive/2016
 /texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb><c:/texlive/2016/texmf-di
 st/fonts/type1/public/amsfonts/symbols/msam10.pfb>
-Output written on mobility_restat.pdf (26 pages, 378599 bytes).
+Output written on mobility_restat.pdf (26 pages, 378622 bytes).
 PDF statistics:
  633 PDF objects out of 1000 (max. 8388607)
  554 compressed objects within 6 object streams
