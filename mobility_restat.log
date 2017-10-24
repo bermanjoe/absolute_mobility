@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/W32TeX) (preloaded format=pdflatex 2017.3.17)  24 OCT 2017 20:10
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/W32TeX) (preloaded format=pdflatex 2017.3.17)  24 OCT 2017 20:29
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -720,7 +720,7 @@ Package epstopdf Info: Source file: <./figs/bivariate_lines3.eps>
 (epstopdf)                    size: 22036 bytes
 (epstopdf)             Command: <repstopdf --outfile=./bivariate_lines3-eps-con
 verted-to.pdf ./figs/bivariate_lines3.eps>
-(epstopdf)             \includegraphics on input line 216.
+(epstopdf)             \includegraphics on input line 217.
 Package epstopdf Info: Output file is already uptodate.
 
 <./bivariate_lines3-eps-converted-to.pdf, id=202, 357.335pt x 260.975pt>
@@ -728,9 +728,14 @@ File: ./bivariate_lines3-eps-converted-to.pdf Graphic file (type pdf)
 
 <use ./bivariate_lines3-eps-converted-to.pdf>
 Package pdftex.def Info: ./bivariate_lines3-eps-converted-to.pdf used on input 
-line 216.
+line 217.
 (pdftex.def)             Requested size: 452.9679pt x 330.83725pt.
- [5 <./bivariate_lines3-eps-converted-to.pdf>] [6] [7] [8] [9]
+
+
+Package natbib Warning: Citation `aitchison1957' on page 5 undefined on input l
+ine 222.
+
+[5 <./bivariate_lines3-eps-converted-to.pdf>] [6] [7] [8] [9]
 Package epstopdf Info: Source file: <./figs/countries2.eps>
 (epstopdf)                    date: 2017-10-13 15:15:02
 (epstopdf)                    size: 71817 bytes
@@ -739,15 +744,15 @@ Package epstopdf Info: Source file: <./figs/countries2.eps>
 (epstopdf)                    size: 14894 bytes
 (epstopdf)             Command: <repstopdf --outfile=./countries2-eps-converted
 -to.pdf ./figs/countries2.eps>
-(epstopdf)             \includegraphics on input line 322.
+(epstopdf)             \includegraphics on input line 323.
 Package epstopdf Info: Output file is already uptodate.
 
-<./countries2-eps-converted-to.pdf, id=321, 334.24875pt x 261.97874pt>
+<./countries2-eps-converted-to.pdf, id=328, 334.24875pt x 261.97874pt>
 File: ./countries2-eps-converted-to.pdf Graphic file (type pdf)
 
 <use ./countries2-eps-converted-to.pdf>
 Package pdftex.def Info: ./countries2-eps-converted-to.pdf used on input line 3
-22.
+23.
 (pdftex.def)             Requested size: 452.9679pt x 355.05916pt.
  [10] [11 <./countries2-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <./figs/R1_R2.eps>
@@ -758,13 +763,13 @@ Package epstopdf Info: Source file: <./figs/R1_R2.eps>
 (epstopdf)                    size: 12122 bytes
 (epstopdf)             Command: <repstopdf --outfile=./R1_R2-eps-converted-to.p
 df ./figs/R1_R2.eps>
-(epstopdf)             \includegraphics on input line 338.
+(epstopdf)             \includegraphics on input line 339.
 Package epstopdf Info: Output file is already uptodate.
- <./R1_R2-eps-converted-to.pdf, id=374, 504.88625pt x 303.1325pt>
+ <./R1_R2-eps-converted-to.pdf, id=381, 504.88625pt x 303.1325pt>
 File: ./R1_R2-eps-converted-to.pdf Graphic file (type pdf)
 
 <use ./R1_R2-eps-converted-to.pdf>
-Package pdftex.def Info: ./R1_R2-eps-converted-to.pdf used on input line 338.
+Package pdftex.def Info: ./R1_R2-eps-converted-to.pdf used on input line 339.
 (pdftex.def)             Requested size: 452.9679pt x 271.96565pt.
  [12 <./R1_R2-eps-converted-to.pdf>] [13]
 [14] (./mobility_restat.bbl
@@ -793,14 +798,14 @@ Package epstopdf Info: Source file: <./figs/copulas3.eps>
 (epstopdf)                    size: 49467 bytes
 (epstopdf)             Command: <repstopdf --outfile=./copulas3-eps-converted-t
 o.pdf ./figs/copulas3.eps>
-(epstopdf)             \includegraphics on input line 525.
+(epstopdf)             \includegraphics on input line 526.
 Package epstopdf Info: Output file is already uptodate.
 
-<./copulas3-eps-converted-to.pdf, id=503, 309.155pt x 282.05376pt>
+<./copulas3-eps-converted-to.pdf, id=513, 309.155pt x 282.05376pt>
 File: ./copulas3-eps-converted-to.pdf Graphic file (type pdf)
 
 <use ./copulas3-eps-converted-to.pdf>
-Package pdftex.def Info: ./copulas3-eps-converted-to.pdf used on input line 525
+Package pdftex.def Info: ./copulas3-eps-converted-to.pdf used on input line 526
 .
 (pdftex.def)             Requested size: 452.9679pt x 413.29706pt.
  [22]
@@ -808,24 +813,31 @@ Package pdftex.def Info: ./copulas3-eps-converted-to.pdf used on input line 525
 LaTeX Warning: Text page 23 contains only floats.
 
 [23 <./copulas3-eps-converted-to.pdf>]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 532.
- [24]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 532.
+
+Package natbib Warning: There were undefined citations.
+
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 533.
+[24]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 533.
  (./mobility_restat.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 532.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 532.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 533.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 533.
 Package rerunfilecheck Info: File `mobility_restat.out' has not changed.
 (rerunfilecheck)             Checksum: 454B264E966241AFE2A0B0C9C6F4DA7F;832.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 532.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 533.
  ) 
 Here is how much of TeX's memory you used:
- 11437 strings out of 493013
- 171876 string characters out of 6136993
+ 11438 strings out of 493013
+ 171891 string characters out of 6136993
  280927 words of memory out of 5000000
- 14652 multiletter control sequences out of 15000+600000
+ 14653 multiletter control sequences out of 15000+600000
  14792 words of font info for 58 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 53i,18n,92p,1277b,491s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 53i,18n,92p,1552b,491s stack positions out of 5000i,500n,10000p,200000b,80000s
 pdfTeX warning (dest): name{Hfootnote.1} has been referenced but does not exi
 st, replaced by a fixed one
 
@@ -847,10 +859,10 @@ b><c:/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb><c:/tex
 live/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb><c:/texlive/2016
 /texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb><c:/texlive/2016/texmf-di
 st/fonts/type1/public/amsfonts/symbols/msam10.pfb>
-Output written on mobility_restat.pdf (25 pages, 371950 bytes).
+Output written on mobility_restat.pdf (25 pages, 373726 bytes).
 PDF statistics:
- 616 PDF objects out of 1000 (max. 8388607)
- 538 compressed objects within 6 object streams
+ 625 PDF objects out of 1000 (max. 8388607)
+ 547 compressed objects within 6 object streams
  108 named destinations out of 1000 (max. 500000)
  130 words of extra memory for PDF output out of 10000 (max. 10000000)
 
