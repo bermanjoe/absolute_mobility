@@ -15,9 +15,19 @@
 {\bf Adamou, Alexander, and Ole Peters.} 2016. ``Dynamics of Inequality.'' {\em
   Significance}, 13(3):~32--35.
 
-\harvarditem[Barenblatt]{Grigory~Isaakovich Barenblatt}{2003}{barenblatt2003}
-{\bf Barenblatt, Grigory~Isaakovich.} 2003. {\em Scaling.} Cambridge University
-  Press.
+\harvarditem[Aitchison \harvardand\ Brown]{John Aitchison \harvardand\ James
+  A.~C. Brown}{1957}{aitchison1957}
+{\bf Aitchison, John, and James A.~C. Brown.} 1957. {\em The lognormal
+  distribution.} Cambridge University Press.
+
+\harvarditem[Alvaredo et~al.]{Facundo Alvaredo, Lucas Chancel, Thomas Piketty,
+  Emmanuel Saez \harvardand\ Gabriel Zucman}{2017}{alvaredo2017global}
+{\bf Alvaredo, Facundo, Lucas Chancel, Thomas Piketty, Emmanuel Saez, and
+  Gabriel Zucman.} 2017. ``Global Inequality Dynamics: New Findings from
+  WID.world.'' National Bureau of Economic Research.
+
+\harvarditem[Barenblatt]{Grigory~I. Barenblatt}{2003}{barenblatt2003}
+{\bf Barenblatt, Grigory~I.} 2003. {\em Scaling.} Cambridge University Press.
 
 \harvarditem[Becker \harvardand\ Tomes]{Gary~S. Becker \harvardand\ Nigel
   Tomes}{1979}{becker1979equilibrium}
@@ -51,6 +61,17 @@
 \harvarditem[Borjas]{George~J. Borjas}{1992}{borjas1992ethnic}
 {\bf Borjas, George~J.} 1992. ``Ethnic capital and intergenerational
   mobility.'' {\em The Quarterly journal of economics}, 107(1):~123--150.
+
+\harvarditem[Bourguignon]{Fran{\c{c}}ois
+  Bourguignon}{2015}{bourguignon2017globalization}
+{\bf Bourguignon, Fran{\c{c}}ois.} 2015. {\em The globalization of inequality.}
+  Princeton University Press.
+
+\harvarditem[Chancel \harvardand\ Piketty]{Lucas Chancel \harvardand\ Thomas
+  Piketty}{2017}{chancel2017india}
+{\bf Chancel, Lucas, and Thomas Piketty.} 2017. ``Indian income inequality,
+  1922--2014: From British Raj to Billionaire Raj?'' The World Wealth and
+  Income Database.
 
 \harvarditem[Chetty et~al.]{Raj Chetty, David Grusky, Maximilian Hell,
   Nathaniel Hendren, Robert Manduca \harvardand\ Jimmy
@@ -105,9 +126,24 @@
 {\bf Hauser, Robert~M.} 2010. ``What Do We Know So Far about Multigenerational
   Mobility?'' UW-Madison Center for Demography and Ecology 98-12.
 
+\harvarditem[Hnatkovska, Lahiri \harvardand\ Paul]{Viktoria Hnatkovska, Amartya
+  Lahiri \harvardand\ Sourabh~B. Paul}{2013}{hnatkovska2013breaking}
+{\bf Hnatkovska, Viktoria, Amartya Lahiri, and Sourabh~B. Paul.} 2013.
+  ``Breaking the caste barrier intergenerational mobility in India.'' {\em
+  Journal of Human Resources}, 48(2):~435--473.
+
 \harvarditem[Isaacs]{Julia Isaacs}{2007}{isaacs2007economic}
 {\bf Isaacs, Julia.} 2007. ``Economic mobility of families across
   generations.'' Economic Mobility Project.
+
+\harvarditem[J\"{a}ntti et~al.]{Markus J\"{a}ntti, Bernt Bratsberg, Knut Roed,
+  Oddbjorn Raaum, Robin Naylor, Eva \"{O}sterbacka, Anders Bj\"{o}rklund
+  \harvardand\ Tor Eriksson}{2006}{jantti2006american}
+{\bf J\"{a}ntti, Markus, Bernt Bratsberg, Knut Roed, Oddbjorn Raaum, Robin
+  Naylor, Eva \"{O}sterbacka, Anders Bj\"{o}rklund, and Tor Eriksson.} 2006.
+  ``American exceptionalism in a new light: a comparison of intergenerational
+  earnings mobility in the Nordic countries, the United Kingdom and the United
+  States.'' IZA Discussion Paper 1938.
 
 \harvarditem[Katz \harvardand\ Krueger]{Lawrence~F. Katz \harvardand\ Alan~B.
   Krueger}{2017}{katz2017documenting}
@@ -136,6 +172,10 @@
   intergenerational mobility in the United States using social security
   earnings data.'' {\em Review of Economics and Statistics}, 87(2):~235--255.
 
+\harvarditem[Milanovic]{Branko Milanovic}{2016}{milanovic2016global}
+{\bf Milanovic, Branko.} 2016. {\em Global Inequality : A New Approach for the
+  Age of Globalization.} Cambridge, MA:Harvard University Press.
+
 \harvarditem[Mulligan]{Casey~B. Mulligan}{1997}{mulligan1997parental}
 {\bf Mulligan, Casey~B.} 1997. {\em Parental priorities and economic
   inequality.} University of Chicago Press.
@@ -162,6 +202,10 @@
   Frederick \harvardand\ Kaisa Snellman}{2012}{putnam2012growing}
 {\bf Putnam, Robert~D., Carl~B. Frederick, and Kaisa Snellman.} 2012. ``Growing
   class gaps in social connectedness among American youth.''
+
+\harvarditem[Rodrik]{Dani Rodrik}{2017}{rodrik2017populism}
+{\bf Rodrik, Dani.} 2017. ``Populism and the Economics of Globalization.''
+  National Bureau of Economic Research.
 
 \harvarditem[Salem \harvardand\ Mount]{Ali B.~Z. Salem \harvardand\ Timothy~D.
   Mount}{1974}{salem1974convenient}
